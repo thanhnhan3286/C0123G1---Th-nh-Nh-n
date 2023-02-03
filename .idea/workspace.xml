@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Sử dụng thẻ HTML cơ bản.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Tạo danh sách.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Tạo trang CV cá nhân.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do/Mô tả thuật toán tìm giá trị lớn nhất trong 3 số.png" beforeDir="false" afterPath="$PROJECT_DIR$/ss3_ma_gia_luu_do/Mô tả thuật toán tìm giá trị lớn nhất trong 3 số.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Tạo trang CV cá nhân.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Tạo trang CV cá nhân.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <updated>1675146762031</updated>
       <workItem from="1675146764212" duration="183000" />
       <workItem from="1675146968558" duration="1222000" />
-      <workItem from="1675395897232" duration="10735000" />
+      <workItem from="1675395897232" duration="12397000" />
     </task>
     <servers />
   </component>
