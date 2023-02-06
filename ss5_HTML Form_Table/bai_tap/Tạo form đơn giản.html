@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+
+Tạo FORM đơn giản
+
+    </title>
+</head>
+<body>
+<fieldset>
+    <h2 style="background-color:orange;color: #f1f1f1; text-align:center; margin-bottom:">SỞ THÍCH CỦA BẠN</h2><BR>
+    <form action="http://demo.codegym.vn/6/registration_form/register.php" method="post" style="margin-left:50px">
+        <label for="name">Họ và tên</label>
+        <input id="name" name="name" type="text" style="margin-left:50px"><br>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" style="margin-left:50px"><br>
+        <label for="hobby">Sở thích</label><br>
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Thể thao
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Âm nhạc
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Đọc sách<br>
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Lướt web
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Chơi game
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Điện ảnh<br>
+        <input id="hobby" name="hobby" type="checkbox" style="margin-left:50px">Du lịch<br>
+        <br>
+        <input name="submit" type="submit" value="Gửi thông tin">
+        <input name="reset" type="reset" value="Nhập lại">
+
+    </form>
+</fieldset>
+<fieldset>
+<h2 style="background-color:powderblue;color: blue; text-align:center; margin-bottom:">ĐĂNG KÝ HỌC VIÊN</h2><BR>
+<form action="http://demo.codegym.vn/6/registration_form/register.php" method="post" style="margin-left:50px">
+    <label for="name">Họ và tên</label>
+    <input id="name" name="name" type="text" style="margin-left:50px"><br>
+    <label for="birthday">Ngày sinh</label>
+    <input id="birthday" name="birthday" type="date" style="margin-left:50px"><br>
+    <label for="gender">Giới tính:</label><br>
+    <input id="gender" name="gender" type="radio" style="margin-left:100px"/>Nam
+    <input id="gender" name="gender" type="radio" />Nữ
+    <input id="gender" name="gender" type="radio" />Khác<br>
+    <label for="address">Địa chỉ</label>
+    <input id="address" name="address" type="text" style="margin-left:50px; height: 60px"><br>
+    <label for="class">Lớp</label>
+    <select id="class" name="class" style="margin-left:50px">
+        <option value="-Chọn lớp-">Chọn lớp</option>
+        <option value="C0122G1">C0122G1</option>
+        <option value="C0124G2">C0124G2</option>
+        <option value="C0125G6">C0125G6</option>
+    </select><br>
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" style="margin-left:50px"><br>
+    <label for="phone">Điện thoại</label>
+    <input id="phone" name="phone" type="tel" style="margin-left:50px">
+    <br><br>
+    <input name="submit" type="submit" value="Đăng ký" style="margin-left:50px">
+    <input name="reset" type="reset" value="Nhập lại" >
+
+</form>
+</fieldset>
+</body>
+</html>
