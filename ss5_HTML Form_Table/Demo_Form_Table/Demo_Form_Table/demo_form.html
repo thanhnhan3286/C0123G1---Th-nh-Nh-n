@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Form</title>
+    <style>
+        input {
+            height: 30px;
+            margin-top: 10px;
+        }
+
+        #username {
+            height: 80px;
+        }
+
+        .tb-input {
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+<!--    Tao form dang ky thong tin hoc vien-->
+<div style="width: 640px; margin: 200px auto;">
+    <form action="/students" method="post">
+        <fieldset>
+            <h1>Dang ky thong tin hoc vien </h1>
+            <label for="fullName">Full Name</label>
+            <input id="fullName" type="" class="tb-input" name="displayName" placeholder="Full Name" value="Pham Minh Son" disabled/>
+            <br/>
+            <label for="username">Username</label>
+            <input id="username" type="text" class="tb-input" name="username" />
+            <br/>
+            <label for="password">Password</label>
+            <input id="password" class="tb-input" type="password" name="password" />
+            <br/>
+            <!--        Gioi tinh-->
+            <!--        <label for="gender">Gender</label>-->
+            Nam: <input type="checkbox" name="gender" value="Nam"/>
+            Nu: <input type="checkbox" name="gender" value="Nu" />
+            <br/>
+
+            <button type="submit">Submit</button>
+            <!--        <input type="button" value="Submit" />-->
+        </fieldset>
+    </form>
+</div>
+
+<!--<br/>-->
+<!--<h1>Tim kiem</h1>-->
+<!--&lt;!&ndash;tim kiem&ndash;&gt;-->
+<!--<form action="/search" method="get">-->
+<!--    <fieldset>-->
+<!--        <label for="freeText">Free Text</label>-->
+<!--        <input id="freeText" type="text" name="freeText" />-->
+<!--        <button type="submit">Submit</button>-->
+<!--    </fieldset>-->
+<!--</form>-->
+
+</body>
+</html>

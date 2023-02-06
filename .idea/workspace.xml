@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss5_HTML Form_Table/bai_tap/Tạo giao diện form đăng ký người dùng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5_HTML Form_Table/thuc_hanh/Tạo form cơ bản.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Tạo trang CV cá nhân.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_GIT_HTML/thuc_hanh/Tạo trang CV cá nhân.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Codegym\module1\ss4_GIT_HTML\bai_tap" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,7 +67,8 @@
       <updated>1675146762031</updated>
       <workItem from="1675146764212" duration="183000" />
       <workItem from="1675146968558" duration="1222000" />
-      <workItem from="1675395897232" duration="12397000" />
+      <workItem from="1675395897232" duration="16176000" />
+      <workItem from="1675606769500" duration="3592000" />
     </task>
     <servers />
   </component>
@@ -78,5 +85,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
