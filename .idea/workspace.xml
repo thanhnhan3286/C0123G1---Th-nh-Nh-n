@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Changemoeny.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Ứng dụng chuyển đổi tiền tệ.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Caculator.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -73,7 +72,7 @@
       <workItem from="1675657021666" duration="831000" />
       <workItem from="1675660515703" duration="18640000" />
       <workItem from="1675689678638" duration="4229000" />
-      <workItem from="1675818314714" duration="7996000" />
+      <workItem from="1675818314714" duration="10963000" />
     </task>
     <servers />
   </component>

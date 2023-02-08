@@ -5,24 +5,38 @@
     <title>Caculator</title>
 </head>
 <body>
-<input type="number" id="numb1" placeholder="Nhập số thứ nhất">
-<input type="number" id="numb2" placeholder="Nhập số thứ hai">
-<button onclick="Cong()">Cộng</button>
-<button onclick="Tru()">Trừ</button>
-<h2>Result:</h2>
-<p id="result">Đây là kết quả</p>
+<h2>CACULATOR</h2><br>
+<input type="number" id="numb1">
+<input type="number" id="numb2"><br><br>
+<button onclick="Add()">Addition(+)</button>
+<button onclick="Sub()">Subtraction(-)</button>
+<button onclick="Mul()">Multiplication(x)</button>
+<button onclick="Div()">Division(/)</button>
+<h2 id="result">Result Division: </h2>
 </body>
 <script>
-    function Cong() {
+    function Add() {
         let numb1 = document.getElementById("numb1").value;
         let numb2 = document.getElementById("numb2").value;
         let result = parseInt(numb1) + parseInt(numb2);
         document.getElementById("result").innerHTML = result;
     }
-    function Tru() {
+    function Sub() {
         let numb1 = document.getElementById("numb1").value;
         let numb2 = document.getElementById("numb2").value;
         let result = parseInt(numb1) - parseInt(numb2);
+        document.getElementById("result").innerHTML = result;
+    }
+    function Mul() {
+        let numb1 = document.getElementById("numb1").value;
+        let numb2 = document.getElementById("numb2").value;
+        let result = parseInt(numb1) * parseInt(numb2);
+        document.getElementById("result").innerHTML = result;
+    }
+    function Div() {
+        let numb1 = document.getElementById("numb1").value;
+        let numb2 = document.getElementById("numb2").value;
+        let result = parseInt(numb1) / parseInt(numb2);
         document.getElementById("result").innerHTML = result;
     }
 </script>
