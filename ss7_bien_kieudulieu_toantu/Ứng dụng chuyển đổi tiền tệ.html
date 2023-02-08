@@ -28,18 +28,18 @@
         let From = document.getElementById("from").value;
         let To = document.getElementById("to").value;
         let Result;
-        if (From == "VND")
-            if (To == "USD") {
-                Result = "Result :" + (Amount / 23000) + "$";
+        if (From === "VND")
+            if (To === "USD") {
+                Result = "Result: " + (Amount / 23000) + " $";
             }
             else {
-                Result = "Result :" + "Đ";
+                Result = "Result: " + Amount + " Đ";
             }
-        else if (To == "VND") {
-                Result = "Result :" + (Amount * 23000) + "Đ";
+        else if (To === "VND") {
+                Result = "Result: " + (Amount * 23000) + " Đ";
             }
             else {
-                Result = "Result :" + "$";
+                Result = "Result: " + Amount + " $";
             }
         document.getElementById("Result").innerHTML = Result;
     }

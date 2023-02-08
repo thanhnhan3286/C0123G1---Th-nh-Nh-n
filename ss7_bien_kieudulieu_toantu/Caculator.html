@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Caculator</title>
+</head>
+<body>
+<input type="number" id="numb1" placeholder="Nhập số thứ nhất">
+<input type="number" id="numb2" placeholder="Nhập số thứ hai">
+<button onclick="Cong()">Cộng</button>
+<button onclick="Tru()">Trừ</button>
+<h2>Result:</h2>
+<p id="result">Đây là kết quả</p>
+</body>
+<script>
+    function Cong() {
+        let numb1 = document.getElementById("numb1").value;
+        let numb2 = document.getElementById("numb2").value;
+        let result = (numb1 + numb2);
+        document.getElementById("result").innerHTML = result;
+    }
+    function Tru() {
+        let numb1 = document.getElementById("numb1").value;
+        let numb2 = document.getElementById("numb2").value;
+        let result = (numb1 - numb2);
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
+</html>
