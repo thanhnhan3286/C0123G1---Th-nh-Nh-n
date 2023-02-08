@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5_HTML Form_Table/bai_tap/Tạo form lấy survey khách hàng.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_HTML Form_Table/bai_tap/mẫu.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5_HTML Form_Table/bai_tap/mẫu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,8 @@
       <workItem from="1675395897232" duration="16176000" />
       <workItem from="1675606769500" duration="4126000" />
       <workItem from="1675657021666" duration="831000" />
-      <workItem from="1675660515703" duration="12453000" />
+      <workItem from="1675660515703" duration="18640000" />
+      <workItem from="1675689678638" duration="4229000" />
     </task>
     <servers />
   </component>
