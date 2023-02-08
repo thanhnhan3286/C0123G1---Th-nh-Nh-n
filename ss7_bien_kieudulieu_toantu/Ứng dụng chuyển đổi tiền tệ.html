@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Changemoeny</title>
+</head>
+<body>
+    <b>Amount</b>
+    <b style="margin-left: 150px">From Curency</b>
+    <b style="margin-left: 50px">To Currency</b> <br>
+    <label for="amount"></label>
+    <input id="amount" name="amount" type="text">
+    <select id="from" style="margin-left: 80px">
+        <option value="VND" >VND</option>
+        <option value="USD">USD</option>
+    </select>
+    <select id="to" style="margin-left: 70px">
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+    </select>
+    <button onclick = "changemoeny()" style="background-color: gray; color: orange; margin-left: 50px">Convert</button>
+    <br>
+<p id="Result" style="color: blue"></p>
+</body>
+<script>
+    function changemoeny() {
+        let Amount = document.getElementById("amount").value;
+        let From = document.getElementById("from").value;
+        let To = document.getElementById("to").value;
+        let Result;
+        if (From == "VND")
+            if (To == "USD") {
+                Result = "Result :" + (Amount / 23000) + "$";
+            }
+            else {
+                Result = "Result :" + "Đ";
+            }
+        else if (To == "VND") {
+                Result = "Result :" + (Amount * 23000) + "Đ";
+            }
+            else {
+                Result = "Result :" + "$";
+            }
+        document.getElementById("Result").innerHTML = Result;
+    }
+</script>
+</html>
