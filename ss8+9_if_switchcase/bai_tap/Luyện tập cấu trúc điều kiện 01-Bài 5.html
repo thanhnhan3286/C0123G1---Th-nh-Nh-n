@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<h2>Xếp loại học lưc</h2><br>
+<label for="kiemtra">Điểm kiểm tra: </label>
+<input id="kiemtra" type="number" min="0" max="10">
+<label for="giuaky">Điểm giữa kỳ: </label>
+<input id="giuaky" type="number" min="0" max="10">
+<label for="cuoiky">Điểm cuối kỳ: </label>
+<input id="cuoiky" type="number" min="0" max="10">
+<button onclick="average()">Kiểm tra</button>
+<h3 id="result"></h3>
+<script>
+    function average() {
+        let kiemtra = + document.getElementById("kiemtra").value;
+        let giuaky = + document.getElementById("giuaky").value;
+        let cuoiky = + document.getElementById("cuoiky").value;
+        let average = ( kiemtra + giuaky + cuoiky )/3;
+        if (average > 4) {
+            if (average >= 6) {
+                if (average >=8) {
+                    document.getElementById("result").innerHTML = "Học lực giỏi";
+                }else {
+                    document.getElementById("result").innerHTML = "Học lực khá";
+                }
+            }else {
+                document.getElementById("result").innerHTML = "Học lực trung bình";
+            }
+        }else {
+            document.getElementById("result").innerHTML = "Học lực trung bình";
+        }
+    }
+</script>
+</body>
+</html>
