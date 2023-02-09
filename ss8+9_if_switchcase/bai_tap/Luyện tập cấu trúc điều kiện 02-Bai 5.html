@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<h2>Diện tích tam giác vuông</h2><br>
+<label for="canhke1">Chiều dài cạnh kề thứ nhất (đv)</label>
+<input id="canhke1" name="canhke1" type="number" min="0"><br><br>
+<label for="canhke2">Chiều dài cạnh kề thứ 2 (đv)</label>
+<input id="canhke2" name="canhke2" type="number" min="0"><br><br>
+<button onclick="tinh()">Diện tích</button><br>
+<p id="dientich"></p>
+<script>
+    function tinh() {
+        let canhke1 = +document.getElementById("canhke1").value;
+        let canhke2 = +document.getElementById("canhke2").value;
+        let dientich = (canhke1 * canhke2)/2;
+        document.getElementById("dientich").innerHTML = "Diện tích tam giác vuông là " + dientich + "đv";
+    }
+</script>
+</body>
+</html>

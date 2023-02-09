@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai3</title>
+</head>
+<body>
+<h2>Tính diện tích hình vuông</h2><br>
+<label for="dodaicanh">Độ dài cạnh (đv)</label>
+<input id="dodaicanh" name="dodaicanh" type="number" min="0">
+<button onclick="tinh()">Diện tích</button>
+<br>
+<h3 id="dientich"></h3>
+<script>
+    function tinh() {
+        let dodaicanh = +document.getElementById("dodaicanh").value;
+        let dientich = dodaicanh * dodaicanh;
+        document.getElementById("dientich").innerHTML = "Diện tích hình vuông cạnh " + dodaicanh + "đv là " + dientich + "đv";
+    }
+</script>
+</body>
+</html>

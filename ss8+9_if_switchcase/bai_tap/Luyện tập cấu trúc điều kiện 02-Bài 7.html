@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<h2>Giải phương trình bậc 2: ax<sup>2</sup> + bx +c =0</h2>
+<label for="a">Nhập số a</label>
+<input id="a" name="a" type="number">
+<label for="b">Nhập số b</label>
+<input id="b" name="b" type="number">
+<label for="c">Nhập số c</label>
+<input id="c" name="c" type="number">
+<button onclick="tinh()">Giải nghiệm</button>
+<p id="nghiem1"></p>
+<p id="nghiem2"></p>
+<script>
+    function tinh() {
+        let a = +document.getElementById("a").value;
+        let b = +document.getElementById("b").value;
+        let c = +document.getElementById("c").value;
+        if (a!==0) {
+            let denta = b*b - 4*a*c;
+            if (denta < 0){
+                document.getElementById("nghiem1").innerHTML = "Phương trình vô nghiệm";
+            }else if (denta === 0) {
+                let nghiem = -(b/(2*a));
+                document.getElementById("nghiem1").innerHTML = "Phương trình có một nghiệm là x = " + nghiem;
+            }else {
+                let nghiem1 = (-b + Math.sqrt(denta))/(2*a);
+                let nghiem2 = (-b - Math.sqrt(denta))/(2*a);
+                document.getElementById("nghiem1").innerHTML = "Phương trình có nghiệm là x1 = " + nghiem1;
+                document.getElementById("nghiem2").innerHTML = "Phương trình có nghiệm là x2 = " + nghiem2;
+            }
+        }else if(b===0) {
+                if (c===0) {
+                    document.getElementById("nghiem1").innerHTML = "Phương trình vô số nghiệm của x";
+                }else {
+                    document.getElementById("nghiem1").innerHTML = "Phương trình vô nghiệm";
+                }
+            }else {
+                let nghiem = -(c/b);
+                document.getElementById("nghiem1").innerHTML = "Nghiệm của phương trình là x = " + nghiem;
+            }
+    }
+</script>
+</body>
+</html>
