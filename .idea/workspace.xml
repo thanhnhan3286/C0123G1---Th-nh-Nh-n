@@ -20,8 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Câu lệnh switch-case.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Tính chỉ số cân nặng của cơ thể.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Caculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Changemoeny.js" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bien_kieudulieu_toantu/Changemoeny.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +77,7 @@
       <workItem from="1675657021666" duration="831000" />
       <workItem from="1675660515703" duration="18640000" />
       <workItem from="1675689678638" duration="4229000" />
-      <workItem from="1675818314714" duration="10963000" />
+      <workItem from="1675818314714" duration="22399000" />
     </task>
     <servers />
   </component>
