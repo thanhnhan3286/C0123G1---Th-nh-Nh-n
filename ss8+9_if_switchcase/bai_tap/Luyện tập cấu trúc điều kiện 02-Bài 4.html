@@ -6,18 +6,18 @@
 </head>
 <body>
 <h2>Diện tích hình chữ nhật</h2><br>
-<label for="chieudai">Chiều dài hình chữ nhật (đv)</label>
-<input id="chieudai" name="chieudai" type="number" min="0"><br><br>
-<label for="chieurong">Chiều rộng hình chữ nhật (đv)</label>
-<input id="chieurong" name="chieurong" type="number" min="0"><br><br>
+<label for="chieu_dai">Chiều dài hình chữ nhật (đv)</label>
+<input id="chieu_dai" name="chieu_dai" type="number" min="0"><br><br>
+<label for="chieu_rong">Chiều rộng hình chữ nhật (đv)</label>
+<input id="chieu_rong" name="chieu_rong" type="number" min="0"><br><br>
 <button onclick="tinh()">Diện tích</button><br>
-<p id="dientich"></p>
+<p id="dien_tich"></p>
 <script>
     function tinh() {
-        let chieudai = +document.getElementById("chieudai").value;
-        let chieurong = +document.getElementById("chieurong").value;
-        let dientich = chieudai * chieurong;
-        document.getElementById("dientich").innerHTML = "Diện tích hình chữ nhật là " + dientich + "đv";
+        let chieu_dai = +document.getElementById("chieu_dai").value;
+        let chieu_rong = +document.getElementById("chieu_rong").value;
+        let dien_tich = chieu_dai * chieu_rong;
+        document.getElementById("dien_tich").innerHTML = "Diện tích hình chữ nhật là " + dien_tich + "đv";
     }
 </script>
 </body>

@@ -44,76 +44,77 @@
     <button onclick="tinh()" style="width: 50px; background-color: gray; color: yellow" ><b>OK</b></button>
     <p>Mức đóng: BHXH (8%), BHYT (1.5%), BHTN (1%)</p>
     <b style="color: red">Bảo hiểm bắt buộc:</b>
-    <p id="bh_bat_buoc"></p>
+    <p id="bao_hiem_bat_buoc"></p>
     <p>Giảm trừ bản thân = 11.000.000đ</p>
     <p>Giảm trừ người phụ thuộc :</p>
-    <p id="gt_phu_thuoc"></p>
+    <p id="giam_tru_phu_thuoc"></p>
     <p>Thu nhập tính thuế : </p>
-    <p id="tn_tinh_thue"></p>
+    <p id="thu_nhap_tinh_thue"></p>
     <p>Mức thuế áp dụng đối với mức thu nhập này là:</p>
     <p id="thue"></p>
     <b style="color: red">Thuế thu nhập cá nhân phải nộp:</b>
-    <p id="ttncn"></p>
+    <p id="thue_thu_nhap_ca_nhan"></p>
 </div>
 <script>
     function tinh() {
-        let thunhapthang = +document.getElementById("thu_nhap_thang").value;
-        let baohiem = +document.getElementById("bao_hiem").value;
-        let nguoiphuthuoc = +document.getElementById("phu_thuoc").value;
-        let bhbb = Math.round(baohiem*0.105);
-        let phuthuoc = Math.round(nguoiphuthuoc*4400000);
-        document.getElementById("gt_phu_thuoc").innerHTML = nguoiphuthuoc + " x 4400000 = " + phuthuoc + "đ";
-        let tntinhthue = Math.round(thunhapthang-bhbb-11000000-phuthuoc);
-        document.getElementById('tn_tinh_thue').innerHTML=thunhapthang+" - "+bhbb+" - 11000000 - "+phuthuoc+" = "+tntinhthue+"đ";
-        if (tntinhthue>0){
-            if (tntinhthue>5000000){
-                if (tntinhthue>10000000){
-                    if (tntinhthue>18000000){
-                        if (tntinhthue>32000000){
-                            if(tntinhthue>52000000){
-                                if(tntinhthue>80000000){
-                                    let mucthue = 0.35;
+        let thuNhapThang = +document.getElementById("thu_nhap_thang").value;
+        let baoHiem = +document.getElementById("bao_hiem").value;
+        let nguoiPhuThuoc = +document.getElementById("phu_thuoc").value;
+        let baoHiemBatBuoc = Math.round(baoHiem*0.105);
+        document.getElementById("bao_hiem_bat_buoc").innerHTML = baoHiem+ " x 8% "+baoHiem+ " x 1.5% "+baoHiem+ " x 1% = "+baoHiemBatBuoc+ "đ";
+        let phuThuoc = Math.round(nguoiPhuThuoc*4400000);
+        document.getElementById("giam_tru_phu_thuoc").innerHTML = nguoiPhuThuoc + " x 4400000 = " + phuThuoc + "đ";
+        let thuNhapTinhthue = Math.round(thuNhapThang-baoHiemBatBuoc-11000000-phuThuoc);
+        document.getElementById("thu_nhap_tinh_thue").innerHTML=thuNhapThang+" - "+baoHiemBatBuoc+" - 11000000 - "+phuThuoc+" = "+thuNhapTinhthue+"đ";
+        if (thuNhapTinhthue>0){
+            if (thuNhapTinhthue>5000000){
+                if (thuNhapTinhthue>10000000){
+                    if (thuNhapTinhthue>18000000){
+                        if (thuNhapTinhthue>32000000){
+                            if(thuNhapTinhthue>52000000){
+                                if(thuNhapTinhthue>80000000){
+                                    let mucThue = 0.35;
                                     document.getElementById("thue").innerHTML = "35% - 9850000";
-                                    let ttncn = Math.round(tntinhthue*mucthue-9850000);
-                                    document.getElementById("ttncn").innerHTML = tntinhthue+" x 35% - 9850000 = " +ttncn+"đ";
+                                    let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue-9850000);
+                                    document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 35% - 9850000 = " +thueThuNhapCaNhan+"đ";
                                 }else{
-                                    let mucthue = 0.3;
+                                    let mucThue = 0.3;
                                     document.getElementById("thue").innerHTML = "30% - 5850000";
-                                    let ttncn = Math.round(tntinhthue*mucthue-5850000);
-                                    document.getElementById("ttncn").innerHTML = tntinhthue+" x 30% - 5850000 = " +ttncn+"đ";
+                                    let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue-5850000);
+                                    document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 30% - 5850000 = " +thueThuNhapCaNhan+"đ";
                                 }
                             }else{
-                                let mucthue = 0.25;
+                                let mucThue = 0.25;
                                 document.getElementById("thue").innerHTML = "25% - 3250000";
-                                let ttncn = Math.round(tntinhthue*mucthue-3250000);
-                                document.getElementById("ttncn").innerHTML = tntinhthue+" x 25% - 3250000 = " +ttncn+"đ";
+                                let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue-3250000);
+                                document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 25% - 3250000 = " +thueThuNhapCaNhan+"đ";
                             }
                         }else{
-                            let mucthue = 0.2;
+                            let mucThue = 0.2;
                             document.getElementById("thue").innerHTML = "20% - 1650000";
-                            let ttncn = Math.round(tntinhthue*mucthue-1650000);
-                            document.getElementById("ttncn").innerHTML = tntinhthue+" x 20% - 1650000 = " +ttncn+"đ";
+                            let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue-1650000);
+                            document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 20% - 1650000 = " +thueThuNhapCaNhan+"đ";
                         }
                     }else{
-                        let mucthue = 0.15;
+                        let mucThue = 0.15;
                         document.getElementById("thue").innerHTML = "15% - 750000";
-                        let ttncn = Math.round(tntinhthue*mucthue-750000);
-                        document.getElementById("ttncn").innerHTML = tntinhthue+" x 15% -750000 = " +ttncn+"đ";
+                        let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue-750000);
+                        document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 15% -750000 = " +thueThuNhapCaNhan+"đ";
                     }
                 }else{
-                    let mucthue = 0.1;
+                    let mucThue = 0.1;
                     document.getElementById("thue").innerHTML = "10% - 250000";
-                    let ttncn = Math.round(tntinhthue*mucthue-250000);
-                    document.getElementById("ttncn").innerHTML = tntinhthue+" x 10% -250000 = " +ttncn+"đ";
+                    let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue-250000);
+                    document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 10% -250000 = " +thueThuNhapCaNhan+"đ";
                 }
             }else{
-                let mucthue = 0.05;
+                let mucThue = 0.05;
                 document.getElementById("thue").innerHTML = "5%";
-                let ttncn = Math.round(tntinhthue*mucthue);
-                document.getElementById("ttncn").innerHTML = tntinhthue+" x 5% = " +ttncn+"đ";
+                let thueThuNhapCaNhan = Math.round(thuNhapTinhthue*mucThue);
+                document.getElementById("thue_thu_nhap_ca_nhan").innerHTML = thuNhapTinhthue+" x 5% = " +thueThuNhapCaNhan+"đ";
             }
         }else {
-            document.getElementById("ttncn").innerHTML="Mức thu nhập này không phải nộp thuế thu nhập cá nhân";
+            document.getElementById("thue_thu_nhap_ca_nhan").innerHTML="Mức thu nhập này không phải nộp thuế thu nhập cá nhân";
         }
     }
 </script>

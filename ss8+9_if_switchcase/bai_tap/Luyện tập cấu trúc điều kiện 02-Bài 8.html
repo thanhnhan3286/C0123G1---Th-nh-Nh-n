@@ -8,10 +8,10 @@
 <h2>Kiểm tra số nhập vào</h2><br>
 <label for="number">Nhập số cần kiểm tra</label>
 <input id="number" name="number" type="number">
-<button onclick="kiemtra()">Kiểm tra</button>
+<button onclick="kiem_tra()">Kiểm tra</button>
 <p id="result"></p>
 <script>
-    function kiemtra() {
+    function kiem_tra() {
         let number = +document.getElementById("number").value;
         if (number > 0 && number < 120) {
             if (number % 1 === 0) {

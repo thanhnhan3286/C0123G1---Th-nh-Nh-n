@@ -9,7 +9,7 @@
 <label for="so_kwh">Số kWh hộ gia đình đã tiêu thụ</label>
 <input id="so_kwh" name="so_kwh" type="number" min="0" style="width: 10%">
 <button onclick="tinh()">Tính</button>
-<h4 id="sotien"></h4>
+<h4 id="so_tien"></h4>
 <script>
     function tinh() {
         let so_kwh = +document.getElementById("so_kwh").value;
@@ -18,27 +18,27 @@
                 if (so_kwh > 200) {
                     if (so_kwh > 300) {
                         if (so_kwh > 400) {
-                            let sotien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014+(so_kwh-200)*2536+(so_kwh-300)*2834+(so_kwh-400)*2927;
-                            document.getElementById("sotien").innerHTML = "Tiền điện của hộ gia đình là " + sotien +"đ";
+                            let so_tien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014+(so_kwh-200)*2536+(so_kwh-300)*2834+(so_kwh-400)*2927;
+                            document.getElementById("so_tien").innerHTML = "Tiền điện của hộ gia đình là " + so_tien +"đ";
                         }else {
-                            let sotien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014+(so_kwh-200)*2536+(so_kwh-300)*2834;
-                            document.getElementById("sotien").innerHTML = "Tiền điện của hộ gia đình là " + sotien + "đ";
+                            let so_tien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014+(so_kwh-200)*2536+(so_kwh-300)*2834;
+                            document.getElementById("so_tien").innerHTML = "Tiền điện của hộ gia đình là " + so_tien + "đ";
                         }
                     }else {
-                        let sotien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014+(so_kwh-200)*2536;
-                        document.getElementById("sotien").innerHTML = "Tiền điện của hộ gia đình là " + sotien + "đ";
+                        let so_tien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014+(so_kwh-200)*2536;
+                        document.getElementById("so_tien").innerHTML = "Tiền điện của hộ gia đình là " + so_tien + "đ";
                     }
                 }else {
-                    let sotien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014;
-                    document.getElementById("sotien").innerHTML = "Tiền điện của hộ gia đình là " + sotien + "đ";
+                    let so_tien = so_kwh*1678+(so_kwh-50)*1734+(so_kwh-100)*2014;
+                    document.getElementById("so_tien").innerHTML = "Tiền điện của hộ gia đình là " + so_tien + "đ";
                 }
             }else {
-                let sotien = so_kwh*1678+(so_kwh-50)*1734;
-                document.getElementById("sotien").innerHTML = "Tiền điện của hộ gia đình là " + sotien + "đ";
+                let so_tien = so_kwh*1678+(so_kwh-50)*1734;
+                document.getElementById("so_tien").innerHTML = "Tiền điện của hộ gia đình là " + so_tien + "đ";
             }
         }else {
-            let sotien = so_kwh*1678;
-            document.getElementById("sotien").innerHTML = "Tiền điện của hộ gia đình là " + sotien + "đ"
+            let so_tien = so_kwh*1678;
+            document.getElementById("so_tien").innerHTML = "Tiền điện của hộ gia đình là " + so_tien + "đ"
         }
     }
 </script>

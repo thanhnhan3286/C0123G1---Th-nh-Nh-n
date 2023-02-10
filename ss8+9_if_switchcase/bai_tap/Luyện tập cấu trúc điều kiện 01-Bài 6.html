@@ -6,26 +6,26 @@
 </head>
 <body>
 <h2>Hoa hồng theo mức doanh thu</h2><br>
-<label for="doanhthu">Doanh thu tháng này (triệu đồng)</label>
-<input id="doanhthu" type="number"><br><br>
-<button onclick="kiemtra()">Kiểm tra</button>
+<label for="doanh_thu">Doanh thu tháng này (triệu đồng)</label>
+<input id="doanh_thu" type="number"><br><br>
+<button onclick="kiem_tra()">Kiểm tra</button>
 <br><br>
 <p id="result"></p>
 <script>
-    function kiemtra() {
-        let doanhthu = +document.getElementById("doanhthu").value;
-        if (doanhthu >=100) {
-            if (doanhthu >=120) {
-                if (doanhthu >= 150) {
-                    let tiennhanduoc = doanhthu * 0.12;
-                    document.getElementById("result").innerHTML = "Hoa hồng nhận được là " + tiennhanduoc + " triệu đồng (12%)";
+    function kiem_tra() {
+        let doanh_thu = +document.getElementById("doanh_thu").value;
+        if (doanh_thu >=100) {
+            if (doanh_thu >=120) {
+                if (doanh_thu >= 150) {
+                    let tien_nhan_duoc = doanh_thu * 0.12;
+                    document.getElementById("result").innerHTML = "Hoa hồng nhận được là " + tien_nhan_duoc + " triệu đồng (12%)";
                 }else {
-                    let tiennhanduoc = doanhthu * 0.08;
-                    document.getElementById("result").innerHTML = "Hoa hồng nhận được là " + tiennhanduoc + " triệu đồng (8%)";
+                    let tien_nhan_duoc = doanh_thu * 0.08;
+                    document.getElementById("result").innerHTML = "Hoa hồng nhận được là " + tien_nhan_duoc + " triệu đồng (8%)";
                 }
             }else {
-                let tiennhanduoc = doanhthu * 0.05;
-                document.getElementById("result").innerHTML = "Hoa hồng nhận được là " + tiennhanduoc + " triệu đồng (5%)";
+                let tien_nhan_duoc = doanh_thu * 0.05;
+                document.getElementById("result").innerHTML = "Hoa hồng nhận được là " + tien_nhan_duoc + " triệu đồng (5%)";
             }
         }else {
             document.getElementById("result").innerHTML = "Không đủ chỉ tiêu nhận hoa hồng";

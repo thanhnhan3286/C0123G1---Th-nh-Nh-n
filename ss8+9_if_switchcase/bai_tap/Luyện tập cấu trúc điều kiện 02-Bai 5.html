@@ -6,18 +6,18 @@
 </head>
 <body>
 <h2>Diện tích tam giác vuông</h2><br>
-<label for="canhke1">Chiều dài cạnh kề thứ nhất (đv)</label>
-<input id="canhke1" name="canhke1" type="number" min="0"><br><br>
-<label for="canhke2">Chiều dài cạnh kề thứ 2 (đv)</label>
-<input id="canhke2" name="canhke2" type="number" min="0"><br><br>
+<label for="canh_ke_1">Chiều dài cạnh kề thứ nhất (đv)</label>
+<input id="canh_ke_1" name="canh_ke_1" type="number" min="0"><br><br>
+<label for="canh_ke_2">Chiều dài cạnh kề thứ 2 (đv)</label>
+<input id="canh_ke_2" name="canh_ke_2" type="number" min="0"><br><br>
 <button onclick="tinh()">Diện tích</button><br>
-<p id="dientich"></p>
+<p id="dien_tich"></p>
 <script>
     function tinh() {
-        let canhke1 = +document.getElementById("canhke1").value;
-        let canhke2 = +document.getElementById("canhke2").value;
-        let dientich = (canhke1 * canhke2)/2;
-        document.getElementById("dientich").innerHTML = "Diện tích tam giác vuông là " + dientich + "đv";
+        let canh_ke_1 = +document.getElementById("canh_ke_1").value;
+        let canh_ke_2 = +document.getElementById("canh_ke_2").value;
+        let dien_tich = (canh_ke_1 * canh_ke_2)/2;
+        document.getElementById("dien_tich").innerHTML = "Diện tích tam giác vuông là " + dien_tich + "đv";
     }
 </script>
 </body>

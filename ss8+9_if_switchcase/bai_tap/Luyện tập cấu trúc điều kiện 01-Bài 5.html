@@ -6,20 +6,20 @@
 </head>
 <body>
 <h2>Xếp loại học lưc</h2><br>
-<label for="kiemtra">Điểm kiểm tra: </label>
-<input id="kiemtra" type="number" min="0" max="10">
-<label for="giuaky">Điểm giữa kỳ: </label>
-<input id="giuaky" type="number" min="0" max="10">
-<label for="cuoiky">Điểm cuối kỳ: </label>
-<input id="cuoiky" type="number" min="0" max="10">
+<label for="kiem_tra">Điểm kiểm tra: </label>
+<input id="kiem_tra" type="number" min="0" max="10">
+<label for="giua_ky">Điểm giữa kỳ: </label>
+<input id="giua_ky" type="number" min="0" max="10">
+<label for="cuoi_ky">Điểm cuối kỳ: </label>
+<input id="cuoi_ky" type="number" min="0" max="10">
 <button onclick="average()">Kiểm tra</button>
 <h3 id="result"></h3>
 <script>
     function average() {
-        let kiemtra = + document.getElementById("kiemtra").value;
-        let giuaky = + document.getElementById("giuaky").value;
-        let cuoiky = + document.getElementById("cuoiky").value;
-        let average = ( kiemtra + giuaky + cuoiky )/3;
+        let kiem_tra = + document.getElementById("kiem_tra").value;
+        let giua_ky = + document.getElementById("giua_ky").value;
+        let cuoi_ky = + document.getElementById("cuoi_ky").value;
+        let average = ( kiem_tra + giua_ky + cuoi_ky )/3;
         if (average > 4) {
             if (average >= 6) {
                 if (average >=8) {
