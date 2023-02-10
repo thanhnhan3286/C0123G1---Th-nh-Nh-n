@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 12</title>
+</head>
+<body>
+<div style="background-color: lightgray">
+    <h2>Tính lãi vay ngân hàng</h2>
+    <label for="sotienbandau"><b>Số tiền vay ban đầu (triệu đồng):</b></label><br>
+    <input id="sotienbandau" name="sotienbandau" type="number" min="0" style="width: 250px" placeholder="Ex:50"><br>
+    <br><label for="sothang"><b>Số tháng cho vay:</b></label><br>
+    <input id="sothang" name="sothang" type="number" min="0" style="width: 250px" placeholder="Ex:12"><br>
+    <br><label for="laixuatthang"><b>Lãi xuất hàng tháng (%):</b></label><br>
+    <input id="laixuatthang" name="laixuatthang" type="number" min="0" style="width: 250px" placeholder="Ex:4.9"><br>
+    <br>
+    <button onclick="tinhlai()">Tính lãi</button>
+    <br><br>
+    <table>
+        <tr>
+            <th>Số tiền phải trả:</th>
+            <th id="sotien" style="background-color: #f1f1f1; color: red"></th>
+        </tr>
+    </table>
+</div>
+<script>
+    function tinhlai() {
+        let sotienbandau = +document.getElementById("sotienbandau").value;
+        let sothang = +document.getElementById("sothang").value;
+        let laixuat = +document.getElementById("laixuatthang").value;
+        let tientra = Math.round(sotienbandau*Math.pow(1+((laixuat)/100),sothang));
+        document.getElementById("sotien").innerHTML = tientra + " triệu đồng"
+    }
+</script>
+
+</body>
+</html>
