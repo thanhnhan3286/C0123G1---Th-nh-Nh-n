@@ -12,17 +12,17 @@
 <input id="b" name="a" type="number" style="width: 5%">
 <label for="c">Độ dài cạnh c</label>
 <input id="c" name="a" type="number" style="width: 5%">
-<button onclick="kiemtra()">Kiểm tra</button>
-<h3 id="ket_qua"></h3>
+<button onclick="check()">Kiểm tra</button>
+<h3 id="ketQua"></h3>
 <script>
-    function kiemtra() {
+    function check() {
         let a = +document.getElementById("a").value;
         let b = +document.getElementById("b").value;
         let c = +document.getElementById("c").value;
         if (a*b > 0 && a*c > 0 && a+b > c && a+c > b && b+c > a) {
-                document.getElementById("ket_qua").innerHTML = "Ba số trên là cạnh của một tam giác";
+                document.getElementById("ketQua").innerHTML = "Ba số trên là cạnh của một tam giác";
             }else{
-                document.getElementById("ket_qua").innerHTML = "Ba số trên không phải là cạnh của một tam giác";
+                document.getElementById("ketQua").innerHTML = "Ba số trên không phải là cạnh của một tam giác";
             }
         }
 </script>

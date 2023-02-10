@@ -6,16 +6,16 @@
 </head>
 <body>
 <h2>Tính diện tích hình vuông</h2><br>
-<label for="do_dai_canh">Độ dài cạnh (đv)</label>
-<input id="do_dai_canh" name="do_dai_canh" type="number" min="0">
+<label for="doDaiCanh">Độ dài cạnh (đv)</label>
+<input id="doDaiCanh" name="doDaiCanh" type="number" min="0">
 <button onclick="tinh()">Diện tích</button>
 <br>
-<h3 id="dien_tich"></h3>
+<h3 id="dienTich"></h3>
 <script>
     function tinh() {
-        let do_dai_canh = +document.getElementById("do_dai_canh").value;
-        let dien_tich = do_dai_canh * do_dai_canh;
-        document.getElementById("dien_tich").innerHTML = "Diện tích hình vuông cạnh " + do_dai_canh + "đv là " + dien_tich + "đv";
+        let doDaiCanh = +document.getElementById("doDaiCanh").value;
+        let dienTich = doDaiCanh * doDaiCanh;
+        document.getElementById("dienTich").innerHTML = "Diện tích hình vuông cạnh " + doDaiCanh + "đv là " + dienTich + "đv";
     }
 </script>
 </body>
