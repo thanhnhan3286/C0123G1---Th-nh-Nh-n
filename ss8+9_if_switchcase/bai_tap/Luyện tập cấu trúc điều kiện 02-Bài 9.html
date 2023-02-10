@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9</title>
+</head>
+<body>
+<h2>Kiểm tra a, b, c có phải cạnh của tam giác</h2><br>
+<label for="a">Độ dài cạnh a</label>
+<input id="a" name="a" type="number" style="width: 5%">
+<label for="b">Độ dài cạnh b</label>
+<input id="b" name="a" type="number" style="width: 5%">
+<label for="c">Độ dài cạnh c</label>
+<input id="c" name="a" type="number" style="width: 5%">
+<button onclick="kiemtra()">Kiểm tra</button>
+<h3 id="ketqua"></h3>
+<script>
+    function kiemtra() {
+        let a = +document.getElementById("a").value;
+        let b = +document.getElementById("b").value;
+        let c = +document.getElementById("c").value;
+        if (a*b > 0 && a*c > 0 && a+b > c && a+c > b && b+c > a) {
+                document.getElementById("ketqua").innerHTML = "Ba số trên là cạnh của một tam giác";
+            }else{
+                document.getElementById("ketqua").innerHTML = "Ba số trên không phải là cạnh của một tam giác";
+            }
+        }
+</script>
+</body>
+</html>
