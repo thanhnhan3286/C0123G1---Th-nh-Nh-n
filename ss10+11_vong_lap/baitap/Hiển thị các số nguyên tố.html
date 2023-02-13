@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị các số nguyên tố</title>
+</head>
+<body>
+<h2>Hiển thị 20 số nguyên tố đầu tiên</h2>
+<script>
+    let countThuong = 0;
+    let count = 0;
+    for (let i = 2; i < 1000; i++) {
+        if (count < 20) {
+            for (let j = 1; j <= i; j++) {
+                if (i % j === 0) {
+                    countThuong += 1;
+                }
+            }
+            if (countThuong === 2) {
+                document.write(i + "<br>");
+                count += 1;
+            }
+            countThuong = 0;
+        } else {
+            break;
+        }
+    }
+</script>
+
+</body>
+</html>

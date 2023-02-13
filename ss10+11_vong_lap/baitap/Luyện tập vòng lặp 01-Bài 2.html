@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    let temperarute= +prompt("Nhập nhiệt độ hiện tại:");
+    while (temperarute<20 || temperarute>100){
+        if (temperarute>100){
+            alert("Nhiệt độ quá cao, hãy giảm nhiệt độ.");
+            temperarute= +prompt("Nhập nhiệt độ hiện tại:");
+        }else if(temperarute<20){
+            alert("Nhiệt độ quá thấp, hãy tăng nhiệt độ.");
+            temperarute= +prompt("Nhập nhiệt độ hiện tại:");
+        }
+    }
+
+</script>
+</body>
+</html>
