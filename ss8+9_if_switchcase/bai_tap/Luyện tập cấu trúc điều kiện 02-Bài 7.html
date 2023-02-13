@@ -21,18 +21,18 @@
         let b = +document.getElementById("b").value;
         let c = +document.getElementById("c").value;
         if (a!==0) {
-            let denta = b*b - 4*a*c;
-            if (denta < 0){
-                let phanPhuc = (Math.sqrt(Math.abs(denta)))/(2*a);
+            let delta = b*b - 4*a*c;
+            if (delta < 0){
+                let phanPhuc = (Math.sqrt(Math.abs(delta)))/(2*a);
                 let phanThuc = (-b)/(2*a);
                 document.getElementById("nghiem1").innerHTML = "Phương trình có nghiệm là x1 = " + phanThuc+" + "+phanPhuc+"i";
                 document.getElementById("nghiem2").innerHTML = "Phương trình có nghiệm là x2 = " + phanThuc+" - "+phanPhuc+"i";
-            }else if (denta === 0) {
+            }else if (delta === 0) {
                 let nghiem = -(b/(2*a));
                 document.getElementById("nghiem1").innerHTML = "Phương trình có một nghiệm thực là x = " + nghiem;
             }else {
-                let nghiem1 = (-b + Math.sqrt(denta))/(2*a);
-                let nghiem2 = (-b - Math.sqrt(denta))/(2*a);
+                let nghiem1 = (-b + Math.sqrt(delta))/(2*a);
+                let nghiem2 = (-b - Math.sqrt(delta))/(2*a);
                 document.getElementById("nghiem1").innerHTML = "Phương trình có nghiệm thực là x1 = " + nghiem1;
                 document.getElementById("nghiem2").innerHTML = "Phương trình có nghiệm thực là x2 = " + nghiem2;
             }

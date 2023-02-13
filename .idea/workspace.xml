@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/thuchanh/Thực hành vòng lặp FOR.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss8+9_if_switchcase/bai_tap/Luyện tập cấu trúc điều kiện 02-Bài 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2.html" beforeDir="false" afterPath="$PROJECT_DIR$/text2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1675660515703" duration="18640000" />
       <workItem from="1675689678638" duration="4229000" />
       <workItem from="1675818314714" duration="38635000" />
-      <workItem from="1675960591570" duration="24063000" />
+      <workItem from="1675960591570" duration="27982000" />
     </task>
     <servers />
   </component>
