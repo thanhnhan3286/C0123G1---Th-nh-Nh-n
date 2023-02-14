@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<h2>Tính giai thừa của một số nguyên dương</h2>
+<label for="numb"></label>
+<input id="numb" name="numb" type="number" placeholder="Nhập số cần tính giai thừa:">
+<br><br>
+<button onclick="factorials()">Tính</button><br>
+<p id="factorials"></p>
+<script>
+    function factorials(){
+        let numb = +document.getElementById("numb").value;
+        let factorials = 1;
+        let i=1;
+        if (numb>0){
+            while(i<=numb){
+                factorials = factorials * i;
+                i++
+            }
+            document.getElementById("factorials").innerHTML="Giai thừa của số đã nhập là = "+factorials ;
+        }else {
+            document.getElementById("factorials").innerHTML="Số âm không tồn tại giai thừa.";
+        }
+    }
+
+</script>
+</body>
+</html>

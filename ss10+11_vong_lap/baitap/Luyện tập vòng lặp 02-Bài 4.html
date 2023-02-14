@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+let D = +prompt("Chiều dài hình chữ nhật");
+let R = +prompt("Chiều rộng hình chữ nhật");
+for(let i=1;i<=R;i++){
+    for(let j=1;j<=D;j++){
+        if (i===1||j===1||i===R||j===D){
+            document.write(" *");
+        }else {
+            document.write("&nbsp;&nbsp;&nbsp");
+        }
+    }document.write("<br/>");
+}
+</script>
+</body>
+</html>

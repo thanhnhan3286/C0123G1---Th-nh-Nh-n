@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bìa 3</title>
+</head>
+<body>
+<script>
+    let H = +prompt("Nhập chiều cao H:");
+        for (let i = 1; i <= H; i++) {
+            for (let j = 1; j <= i; j++) {
+                document.writeln(" * ");
+            }
+            document.writeln("<br>");
+        }
+        document.writeln("<br>");
+        for (let i = H; i >= 1; i--) {
+            for (let j = i; j >= 1; j--) {
+                document.writeln(" * ");
+            }
+            document.writeln("<br>");
+        }
+        document.writeln("<br>");
+        for (let i = 1; i <= H; i++) {
+            for (let k = H; k >= i; k--) {
+                document.write("&nbsp;&nbsp;&nbsp");
+            }
+            for (let j = 1; j <= i; j++) {
+                document.writeln(" * ");
+            }
+            document.writeln("<br>");
+        }
+        document.writeln("<br>");
+
+        for (let i = H; i >= 1; i--) {
+            for (let k = H; k >= i; k--) {
+                document.write("&nbsp;&nbsp;&nbsp");
+            }
+            for (let j = i; j >= 1; j--) {
+                document.writeln(" * ");
+            }
+            document.writeln("<br>");
+        }
+
+</script>
+</body>
+</html>

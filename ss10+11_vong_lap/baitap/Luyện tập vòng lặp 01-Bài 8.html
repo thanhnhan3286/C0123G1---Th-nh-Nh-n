@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 8</title>
+</head>
+<body>
+<button onclick="play()">Chơi</button>
+<script>
+    function play() {
+        let zone = +prompt("Số bạn muốn đoán nằm trong khoảng nào:");
+        let numbRam = Math.floor(Math.random()*zone);
+        console.log(numbRam);
+        let number = +prompt("Số bạn dự đoán");
+        for(let i=0;i<=3;i++){
+            if(i===3){
+                alert("Bạn đã hết 3 lượt đoán");
+                break;
+            } else if(number===numbRam){
+                alert("Bingo!!!");
+                break;
+            } else if(number<numbRam){
+                number= +prompt("Số bạn đoán bé hơn, hãy đoán lại");
+                continue;
+            }else{
+                number= +prompt("Số bạn đoán lớn hơn, hãy đoán lại");
+                continue;
+            }
+        }
+    }
+</script>
+</body>
+</html>

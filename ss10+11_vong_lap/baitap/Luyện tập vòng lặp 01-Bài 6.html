@@ -7,17 +7,14 @@
 <body>
 <script>
     let sum=0;
-    // for(let count=0;count<30;count++) {
-    if(count<30) {
-        for(let i=0;i<1000;i=i+1){
-            if (i%7===0){
-                    sum=sum+i;
-                    count++;
-                }
-            }document.write("Tổng 30 số đầu tiên chia hết cho 7 là: "+sum);
-
-    // }
-
+    let count=0;
+    for(let i=0;count<30;i++){
+        if (i % 7 === 0) {
+            sum = sum + i;
+            count++;
+        }
+    }
+    document.write("Tổng 30 số đầu tiên chia hết cho 7 là: "+sum);
 </script>
 </body>
 </html>

@@ -20,18 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Hiển thị các số nguyên tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Sinh bảng cửu chương.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/thuchanh/TH DO-WHILE.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/thuchanh/Thực hành vòng lặp WHILE.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10+11_vong_lap/thuchanh/Thực hành vòng lặp FOR.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10+11_vong_lap/thuchanh/Thực hành vòng lặp FOR.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text2.html" beforeDir="false" afterPath="$PROJECT_DIR$/text2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,7 @@
       <workItem from="1675660515703" duration="18640000" />
       <workItem from="1675689678638" duration="4229000" />
       <workItem from="1675818314714" duration="38635000" />
-      <workItem from="1675960591570" duration="52935000" />
+      <workItem from="1675960591570" duration="67236000" />
     </task>
     <servers />
   </component>
@@ -103,9 +98,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1675936219181">
+    <state x="430" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1676339688172">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1675936219181" />
+    <state x="430" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1676339688172" />
   </component>
 </project>
