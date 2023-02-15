@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng các hàm có sẵn của mảng</title>
+</head>
+<body>
+<script>
+// <!--    Bài 1    -->
+    let myColor = ["Red","Green","White","Black"];
+    document.write(myColor.toString()+"<br>");
+    document.write(myColor.join(",")+"<br>"+"<br>");
+// <!--    Bài 2    -->
+    let numb = prompt("Nhập dãy số bất kỳ:");
+    let arr = [numb[0]];
+    for(let i=0;i<numb.length;i++){
+        if((numb[i]%2===0) && (numb[i+1]%2===0)){
+            arr.push("-",numb[i+1]);
+        }else{
+            arr.push(numb[i+1]);
+        }
+    }
+    document.write(arr.join(""));
+// <!--    Bài 3    -->
+    let array = prompt("");
+    let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let lower = "abcdefghijklmnopqrstuvwxyz";
+    let result = [];
+        for (let j=0;j<array.length;j++){
+            for(let x=0;x<upper.length;x++){
+                if(array[j]===upper[x]){
+                    result.push(lower[x]);
+                }else if(array[j]===lower[x]){
+                    result.push(upper[x]);
+                }
+            }
+        }
+    document.write(result.join(""));
+
+</script>
+</body>
+</html>

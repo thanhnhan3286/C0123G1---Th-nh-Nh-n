@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<script>
+    let int = [12,15,5,8,9,45,6,32,21,7,4];
+    let max = int[0];
+    let loca = 0;
+    for(let i=1;i<int.length;i++){
+        if(int[i]>max){
+            max = int[i];
+            loca = i;
+        }
+    }
+    document.write("Số lớn nhất là:"+ max + "<br>");
+    document.write("Ở vi trí thứ:"+ loca);
+</script>
+</body>
+</html>

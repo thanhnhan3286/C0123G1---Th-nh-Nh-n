@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ Điển</title>
+</head>
+<body>
+<script>
+        let text = prompt("nhập từ cần dịch:");
+        let english = ["January", "February", "March", "April", "May", "Next month", "July", "August", "September", "October", "November", "December"];
+        let vietNam = ["tháng một", "tháng hai", "tháng ba", "tháng tư", "tháng năm", "tháng sau","tháng bảy", "tháng tám", "tháng chín", "tháng mười", "tháng mười một", "tháng mười hai"];
+        let result ="";
+        for (let i = 0; i < english.length; i++) {
+            if (text === english[i]) {
+                result=vietNam[i];
+            }
+        }
+        document.write(result);
+</script>
+</body>
+</html>

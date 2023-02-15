@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let int = [12,15,5,8,9,45,6,32,21,7,4];
+    let max = int[0];
+    let sum = int[0];
+    let aver = 0;
+    for(let i=1;i<int.length;i++){
+        if(int[i]>max){
+            max = int[i];
+        }
+        sum = sum + int[i];
+    }
+    aver = sum/(int.length-1);
+    document.write("Số lớn nhất là:"+ max + "<br>");
+    document.write("Gía trị tring bình là:"+ aver);
+</script>
+</body>
+</html>
