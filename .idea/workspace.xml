@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss12+13_Mang/thuchanh/bàn ca ro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 01-Bài 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Hiển thị các số nguyên tố.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Hiển thị các số nguyên tố.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2.html" beforeDir="false" afterPath="$PROJECT_DIR$/text2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1675660515703" duration="18640000" />
       <workItem from="1675689678638" duration="4229000" />
       <workItem from="1675818314714" duration="38635000" />
-      <workItem from="1675960591570" duration="67236000" />
+      <workItem from="1675960591570" duration="71794000" />
     </task>
     <servers />
   </component>
