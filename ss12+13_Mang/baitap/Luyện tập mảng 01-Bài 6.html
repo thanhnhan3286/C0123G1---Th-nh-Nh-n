@@ -8,29 +8,22 @@
 <script>
     let int = [];
     for(let i=0;i<10;i++){
-        int[i] = prompt("Nhập phần tử:");
+        int[i] = Number(prompt("Nhập phần tử:"));
     }
-    // int.toString();
-    // document.write(typeof int);
+    // document.write(typeof int[2]);
     document.write(int+"<br>");
     let numb = +prompt("Nhập số nguyên V:");
-    // document.write(typeof numb);
     document.write(numb+"<br>");
     let count=0;
     for(let j=0;j<int.length;j++){
         if(numb===int[j]){
             count=1;
-            // document.write("V is in the array");
-        // }else{
-        //     count=count+1;
-            // document.write("V is not in the array");
         }
     }
-    // document.write(count);
     if(count===1){
-        document.write("V is not in the array");
-    }else {
         document.write("V is in the array");
+    }else {
+        document.write("V is not in the array");
     }
 </script>
 </body>
