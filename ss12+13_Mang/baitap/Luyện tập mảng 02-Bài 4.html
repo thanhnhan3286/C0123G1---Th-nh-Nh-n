@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    let array = prompt("Nhập chuỗi ký tự:");
+    document.write(array+"<br>");
+    let count = 0;
+    let check = true;
+    for (let x = 0; x < array.length; x++) {
+        if (array[x] === " "){
+            check = true;
+            continue;
+        }else if(check) {
+            count++;
+            check=false;
+        }
+    }
+    document.write("Số từ trong chuỗi trên là: "+count);
+</script>
+</body>
+</html>

@@ -35,9 +35,10 @@
     // }
     // let arr = [];
     //
-    // for (let i = 0; i < 5; i++) {
+    // for (let i = 0; i < 10; i++) {
     //     arr[i] = +prompt("nhap so phan tu vao mang:"); // nhap 10 phan tu vao mang
     // } document.write(arr + "<br>");
+    // document.write(typeof arr[1] + "<br>");
     // for (let i = 0; i < arr.length; i++){
     //     for (let j = i + 1; j < arr.length; j++){
     //         if (arr[j] > arr[i]) {
@@ -48,19 +49,19 @@
     //     }
     // }
     // document.write(arr);
-    let arr = [];
-    let b=[];
-
-    for (let i = 0; i < 3; i++) {
-        arr[i] = +prompt("nhap so phan tu vao mang:"); // nhap 10 phan tu vao mang
-    } document.write(arr + "<br>");
-    let v = +prompt("nhap v :");
-    for (let i = 0; i <arr.length; i++){
-        if (v === arr[i]) {
-            arr.splice(i,1); // bo so luong phan tu
-
+    // let array = ['c', 's', 'c', '2', '6', '1'];
+    // for (let x = array.length-1; x >= 0; x--) {
+    //     document.write(array[x]);
+    // }
+    let array = prompt("Nhập chuỗi ký tự:");
+    document.write(array+"<br>");
+    let count = 0;
+    for (let x = 0; x < array.length; x++) {
+        if ((array[x] === " " && array[x+1] !== " " )||(array[x-1] !== " " && array[x] === " "&& array[x+1] !== " ")){
+            count++;
         }
     }
+    document.write("Số từ trong chuỗi trên là: "+count);
 </script>
 </body>
 </html>

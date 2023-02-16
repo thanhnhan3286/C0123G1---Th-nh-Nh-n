@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let array = prompt("Nhập chuỗi ký tự:");
+    document.write(array+"<br>");
+    let count = 0;
+    for (let x = array.length-1; x >= 0; x--) {
+        if(+array[x]){
+            count++;
+        }
+    }
+    document.write("Số ký tự số trong chuỗi trên là: "+count);
+</script>
+</body>
+</html>

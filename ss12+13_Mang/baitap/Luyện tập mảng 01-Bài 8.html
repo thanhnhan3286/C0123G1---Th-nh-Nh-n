@@ -6,7 +6,19 @@
 </head>
 <body>
 <script>
-
+    let int = [12,15,5,8,9,45,6,32,21,7,4];
+    document.write("Mảng số nguyên ban đầu:"+int+"<br>");
+    // let result=[];
+    for(let i=0;i<int.length;i++){
+        for(let j=i+1;j<int.length;j++){
+            if(int[j]>int[i]){
+                let a = int[i];
+                int[i] = int[j];
+                int[j] = a;
+            }
+        }
+    }
+    document.write(int);
 </script>
 </body>
 </html>

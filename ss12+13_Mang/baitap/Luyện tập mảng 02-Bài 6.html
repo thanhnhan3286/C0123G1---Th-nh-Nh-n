@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+    let array1 = [];
+    for(let i=0;i<5;i++){
+        array1[i]=prompt("Nhập các ký tự:");
+    }
+    let array2 = [];
+    let array3 = ['_'];
+    document.write("Mảng ký tự ban đầu: "+array1+"<br>")
+    for(let j=0;j<array1.length;j++){
+        if(array1[j]==="-"){
+            array2.push(array3);
+        }else{
+            array2.push(array1[j]);
+        }
+    }
+    document.write(array2.join(""));
+
+</script>
+</body>
+</html>
