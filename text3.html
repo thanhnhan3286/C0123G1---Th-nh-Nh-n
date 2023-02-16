@@ -6,19 +6,60 @@
 </head>
 <body>
 <script>
-    let array = [123, 32, 3, 23, 223, 23, 20, 32, 23, 2, 77];
-    document.write(typeof array);
-    let element = +prompt("Nhập phần tử số nguyên V: ");
-    document.write(typeof element);
-    let n=0;
-    for (let x = 0; x < array.length; x++) {
-        if (element === array[x]) {
-            n=1;
-            document.write("V is in the array");
-            break;
+    // let array = [123, 32, 3, 23, 223, 23, 20, 32, 23, 2, 77];
+    // document.write(typeof array);
+    // let element = +prompt("Nhập phần tử số nguyên V: ");
+    // document.write(typeof element);
+    // let n=0;
+    // for (let x = 0; x < array.length; x++) {
+    //     if (element === array[x]) {
+    //         n=1;
+    //         document.write("V is in the array");
+    //         break;
+    //     }
+    // }if(n==0){
+    //     document.write("V is not in the array");
+    // }
+    // let arr = [];
+    // let b=[];
+    //
+    // for (let i = 0; i < 3; i++) {
+    //     arr[i] = +prompt("nhap so phan tu vao mang:"); // nhap 10 phan tu vao mang
+    // } document.write(arr + "<br>");
+    // let v = +prompt("nhap v :");
+    // for (let i = 0; i <arr.length; i++){
+    //     if (v === arr[i]) {
+    //         arr.splice(i,1); // bo so luong phan tu
+    //
+    //     }
+    // }
+    // let arr = [];
+    //
+    // for (let i = 0; i < 5; i++) {
+    //     arr[i] = +prompt("nhap so phan tu vao mang:"); // nhap 10 phan tu vao mang
+    // } document.write(arr + "<br>");
+    // for (let i = 0; i < arr.length; i++){
+    //     for (let j = i + 1; j < arr.length; j++){
+    //         if (arr[j] > arr[i]) {
+    //             let a = arr[i];
+    //             arr[i]=arr[j];
+    //             arr[j]= a;
+    //         }
+    //     }
+    // }
+    // document.write(arr);
+    let arr = [];
+    let b=[];
+
+    for (let i = 0; i < 3; i++) {
+        arr[i] = +prompt("nhap so phan tu vao mang:"); // nhap 10 phan tu vao mang
+    } document.write(arr + "<br>");
+    let v = +prompt("nhap v :");
+    for (let i = 0; i <arr.length; i++){
+        if (v === arr[i]) {
+            arr.splice(i,1); // bo so luong phan tu
+
         }
-    }if(n==0){
-        document.write("V is not in the array");
     }
 </script>
 </body>

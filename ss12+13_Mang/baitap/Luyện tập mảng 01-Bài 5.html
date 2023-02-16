@@ -6,14 +6,18 @@
 </head>
 <body>
 <script>
-    let int = [12,15,5,-8,-10,8,9,45,6,32,21,7,4];
+    let int = prompt("Nhập chuỗi kí tự:");
+    document.write("Chuỗi vừa nhập: "+int+"<br>");
+    let arr = "aeoiuAEIOU";
     let count = 0;
     for(let i=0;i<int.length;i++){
-        if (int[i]<0){
-            count=count+1;
+        for(let j=0;j<arr.length;j++){
+            if (int[i]===arr[j]){
+                count=count+1;
+            }
         }
     }
-    document.write("Số lượng số nguyên âm trong chuỗi là "+count);
+    document.write("Số lượng nguyên âm trong chuỗi là "+count);
 
 </script>
 </body>
