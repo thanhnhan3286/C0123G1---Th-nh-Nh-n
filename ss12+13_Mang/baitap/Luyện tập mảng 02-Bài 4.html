@@ -7,16 +7,16 @@
 <body>
 <script>
     let array = prompt("Nhập chuỗi ký tự:");
-    document.write(array+"<br>");
+    document.write(array + "<br>");
     let count = 0;
     for (let x = 0; x < array.length; x++) {
-        if(x!==array.length-1){
-            if ((array[x] === " " && array[x+1] !== " " )||(array[x-1] !== " " && array[x] === " "&& array[x+1] !== " ")){
+        if (x !== array.length - 1) {
+            if ((array[x] === " " && array[x + 1] !== " ") || (array[x - 1] !== " " && array[x] === " " && array[x + 1] !== " ")) {
                 count++;
             }
         }
     }
-    document.write("Số từ trong chuỗi trên là: "+count);
+    document.write("Số từ trong chuỗi trên là: " + count);
 </script>
 </body>
 </html>

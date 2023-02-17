@@ -53,15 +53,58 @@
     // for (let x = array.length-1; x >= 0; x--) {
     //     document.write(array[x]);
     // }
-    let array = prompt("Nhập chuỗi ký tự:");
-    document.write(array+"<br>");
-    let count = 0;
-    for (let x = 0; x < array.length; x++) {
-        if ((array[x] === " " && array[x+1] !== " " )||(array[x-1] !== " " && array[x] === " "&& array[x+1] !== " ")){
-            count++;
-        }
-    }
-    document.write("Số từ trong chuỗi trên là: "+count);
+    // let array = prompt("Nhập chuỗi ký tự:");
+    // document.write(array+"<br>");
+    // let count = 0;
+    // for (let x = 0; x < array.length; x++) {
+    //     if ((array[x] === " " && array[x+1] !== " " )||(array[x-1] !== " " && array[x] === " "&& array[x+1] !== " ")){
+    //         count++;
+    //     }
+    // }
+    // // document.write("Số từ trong chuỗi trên là: "+count);
+    // let numA = +prompt("Nhập số thứ nhất: ");
+    // let numB = +prompt("Nhập số thứ hai: ");
+    // let total;
+    //
+    // function compare(a, b) {
+    //     if (a > b) {
+    //         alert("Số thứ nhất lớn hơn số thứ hai.");
+    //     } else {
+    //         return a + b;
+    //     }
+    // }
+    //
+    // total = compare(numA, numB);
+    // if (total) {
+    //     document.write(total);
+    // }
+    //
+    // let nameStar = prompt("Nhập tên ngôi sao muốn tìm");
+    // let temp = "";
+    // let array1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    // let array2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    //
+    // function checkStar(star) {
+    //     for (let i = 0; i < array1.length; i++) {
+    //         if (array1[i] === star) {
+    //             for (let j = 0; j < array2.length; j++) {
+    //                 if (i === j) {
+    //                     temp = array2[j];
+    //                     return temp;
+    //                 } else if (j === (array2.length - 1)) {
+    //                     temp = "Không tìm thấy chòm sao";
+    //                     return temp;
+    //                 }
+    //             }
+    //         } else if (i === (array1.length - 1) && array1[i] !== star) {
+    //             temp = "Không tìm thấy tên ngôi sao";
+    //             return temp;
+    //         }
+    //     }
+    // }
+    //
+    // document.write(checkStar(nameStar));
+
 </script>
 </body>
 </html>

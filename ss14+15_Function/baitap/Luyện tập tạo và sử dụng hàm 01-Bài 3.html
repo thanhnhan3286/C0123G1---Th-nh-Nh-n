@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let numA = +prompt("Nhập số thứ nhất: ");
+    let numB = +prompt("Nhập số thứ hai: ");
+    let total;
+
+    function compare(a, b) {
+        if (a > b) {
+            alert("Số thứ nhất lớn hơn số thứ hai.");
+        } else {
+            return a + b;
+        }
+    }
+
+    total = compare(numA, numB);
+    if (total) {
+        document.write(total);
+    }
+
+</script>
+</body>
+</html>
