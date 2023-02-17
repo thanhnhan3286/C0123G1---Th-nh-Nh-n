@@ -20,20 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 01-Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 01-Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 01-Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 01-Bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 01-Bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12+13_Mang/baitap/Luyện tập mảng 02-Bài 6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text3.html" beforeDir="false" afterPath="$PROJECT_DIR$/text3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14+15_Function/baitap/Hàm kiểm tra số nguyên tố.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +74,7 @@
       <workItem from="1675818314714" duration="38635000" />
       <workItem from="1675960591570" duration="119455000" />
       <workItem from="1676546156443" duration="388000" />
-      <workItem from="1676604319629" duration="12300000" />
+      <workItem from="1676604319629" duration="12995000" />
     </task>
     <servers />
   </component>

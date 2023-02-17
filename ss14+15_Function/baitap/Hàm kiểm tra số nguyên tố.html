@@ -5,28 +5,24 @@
     <title>Kiểm tra số nguyên tố</title>
 </head>
 <body>
-<h2>Kiểm tra số nguyên tố</h2>
-<label for="number">Số cần kiểm tra</label>
-<input id="number" name="number" type="number">
-<br>
-<button onclick="checkPrimeNumber()">Kiểm tra</button>
-<br>
-<p id="result"></p>
 <script>
-    function checkPrimeNumber() {
-        let number = +document.getElementById("number").value;
+    let number = +prompt("Nhập số cần kiểm tra:");
+
+    function checkPrimeNumber(numb) {
         let count = 0;
         for (let j = 1; j <= 10000; j++) {
-            if (number % j === 0) {
+            if (numb % j === 0) {
                 count += 1;
             }
         }
         if (count === 2) {
-            document.getElementById("result").innerHTML = number + " là số nguyên tố" + "<br>";
-        }else{
-            document.getElementById("result").innerHTML = number + " không phải là số nguyên tố" + "<br>";
+            return numb + " là số nguyên tố" + "<br>";
+        } else {
+            return numb + " không phải là số nguyên tố" + "<br>";
         }
     }
+
+    document.write(checkPrimeNumber(number))
 </script>
 </body>
 </html>
