@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    let number = prompt("Nhập ký tự bất kỳ:");
+
+    function checkNumber(numb) {
+        let check;
+        if (!isNaN(numb)) {
+            check = true;
+            return check;
+        } else {
+            check = false;
+            return check;
+        }
+    }
+
+    document.write(checkNumber(number));
+</script>
+</body>
+</html>

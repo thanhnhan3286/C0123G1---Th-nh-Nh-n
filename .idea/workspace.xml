@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ss14+15_Function/baitap/Hàm kiểm tra số nguyên tố.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Hàm kiểm tra số nguyên tố.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text3.html" beforeDir="false" afterPath="$PROJECT_DIR$/text3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +82,9 @@
       <workItem from="1675818314714" duration="38635000" />
       <workItem from="1675960591570" duration="119455000" />
       <workItem from="1676546156443" duration="388000" />
-      <workItem from="1676604319629" duration="12995000" />
+      <workItem from="1676604319629" duration="13175000" />
+      <workItem from="1676644740560" duration="734000" />
+      <workItem from="1676690226045" duration="20331000" />
     </task>
     <servers />
   </component>
@@ -94,6 +104,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="188" key="run.anything.popup" timestamp="1676690675225">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="698" y="188" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1676690675225" />
     <state x="430" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1676339688172">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

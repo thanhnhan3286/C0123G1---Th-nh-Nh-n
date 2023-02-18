@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 6</title>
+</head>
+<body>
+<script>
+    let numb = prompt("Nhập số bất kỳ:");
+    let result;
+    function checkPositiveInteger(number) {
+        if(parseInt(number)%1===0){
+            if(parseInt(number)>0){
+                return true;
+            }else if(parseInt(number)<0){
+                return false;
+            }
+        }else {
+            result = "Không phải số nguyên";
+            return result;
+        }
+    }
+    document.write(checkPositiveInteger(numb));
+</script>
+</body>
+</html>

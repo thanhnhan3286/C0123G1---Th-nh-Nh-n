@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<script>
+    let array = [];
+    for (let i = 0; i < 3; i++) {
+        array[i] = +prompt("Nhập số:");
+    }
+    let min = array[0];
+
+    function checkMinNumber() {
+        for (let j = 1; j < array.length; j++) {
+            if (min > array[j]) {
+                min = array[j]
+            }
+        }
+        return min;
+    }
+
+    document.write("Số nhỏ nhất là: " + checkMinNumber());
+</script>
+</body>
+</html>

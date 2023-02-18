@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 9</title>
+</head>
+<body>
+<script>
+    let arrayCharacter = prompt("Nhập mảng ký tự");
+    let character = prompt("Ký tự cần kiểm tra:");
+
+    function checkCharacter(array, character) {
+        let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === character) {
+                count++;
+            }
+        }
+        if (count === 0) {
+            count = -1;
+        }
+        return count;
+    }
+
+    document.write(checkCharacter(arrayCharacter, character));
+</script>
+</body>
+</html>

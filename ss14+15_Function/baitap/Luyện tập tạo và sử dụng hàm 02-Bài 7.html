@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 7</title>
+</head>
+<body>
+<script>
+    let numb1 = +prompt("Nhập số thứ nhất:");
+    let numb2 = +prompt("Nhập số thứ hai:");
+    document.write("Số thứ nhất: " + numb1 + "<br>" + "Số thứ hai: " + numb2 + "<br>");
+
+    function changeValue(number1, number2) {
+        let c = number1;
+        number1 = number2;
+        number2 = c;
+        document.write("Sau khi đổi: " + "<br>");
+        document.write("Số thứ nhất: " + number1 + "<br>" + "Số thứ hai: " + number2 + "<br>");
+    }
+
+    changeValue(numb1, numb2);
+</script>
+</body>
+</html>

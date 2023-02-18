@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<script>
+    let number = +prompt("Nhập số:")
+    let result = 1;
+
+    function factorial(numb) {
+        for (let i = 1; i <= numb; i++) {
+            result = result * i;
+            if (i === numb) {
+                return result;
+            }
+        }
+    }
+
+    if (number < 1) {
+        alert("số âm không có giai thừa");
+    } else if (parseInt(number) !== number) {
+        alert("Không phải số");
+    } else {
+        document.write("Giai thừa của " + number + " là: " + factorial(number));
+    }
+</script>
+</body>
+</html>
