@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 1 ( If và switch case)-Bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_Lap_trinh_huong-doi-tuong_OOP/baitap/Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss14+15_Function/baitap/Luyện tập tạo và sử dụng hàm 02-Bài 8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text3.html" beforeDir="false" afterPath="$PROJECT_DIR$/text3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,9 @@
       <workItem from="1676546156443" duration="388000" />
       <workItem from="1676604319629" duration="13175000" />
       <workItem from="1676644740560" duration="734000" />
-      <workItem from="1676690226045" duration="20331000" />
+      <workItem from="1676690226045" duration="20430000" />
+      <workItem from="1676855732991" duration="14278000" />
+      <workItem from="1676951013196" duration="3605000" />
     </task>
     <servers />
   </component>

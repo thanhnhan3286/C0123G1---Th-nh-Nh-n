@@ -104,23 +104,45 @@
     // }
     //
     // document.write(checkStar(nameStar));
-    let number=+prompt("Nhập số:")
-    let result=1;
-    function factorial(numb) {
-        for (let i=1;i<=numb;i++){
-            result=result*i;
-            if(i===numb){
-                return result;
-            }
+    // let number=+prompt("Nhập số:")
+    // let result=1;
+    // function factorial(numb) {
+    //     for (let i=1;i<=numb;i++){
+    //         result=result*i;
+    //         if(i===numb){
+    //             return result;
+    //         }
+    //     }
+    // }
+    // if(number<1){
+    //     alert("số âm không có giai thừa");
+    // }else if(parseInt(number)!==number){
+    //     alert("Không phải số");
+    // }else {
+    //     document.write(factorial(number));
+    // }
+    // let num1 = 0;
+    // let num2 = 0;
+    // // let num3 = 0;
+    // for(let i=0;i<=10000000000;i++){
+    //     num2 = num2 + i;
+    //     // num3 = num2 + i++;
+    //     num1=50+num2;
+    //     if (i=2023)
+    // }
+    // document.write(num1);
+    let a = +prompt("Nhập tuổi cha");
+    let b = +prompt("Nhập tuổi con");
+    let i = 1;
+    // let c = 0;
+    while (i<1000) {
+        if ((b+i)/(a+i)===2) {
+            document.write("số năm: " + i);
+            break;
         }
+        i++;
     }
-    if(number<1){
-        alert("số âm không có giai thừa");
-    }else if(parseInt(number)!==number){
-        alert("Không phải số");
-    }else {
-        document.write(factorial(number));
-    }
+
 </script>
 </body>
 </html>

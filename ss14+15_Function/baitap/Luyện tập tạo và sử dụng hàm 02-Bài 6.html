@@ -8,18 +8,20 @@
 <script>
     let numb = prompt("Nhập số bất kỳ:");
     let result;
+
     function checkPositiveInteger(number) {
-        if(parseInt(number)%1===0){
-            if(parseInt(number)>0){
+        if (parseInt(number) % 1 === 0) {
+            if (parseInt(number) > 0) {
                 return true;
-            }else if(parseInt(number)<0){
+            } else if (parseInt(number) < 0) {
                 return false;
             }
-        }else {
+        } else {
             result = "Không phải số nguyên";
             return result;
         }
     }
+
     document.write(checkPositiveInteger(numb));
 </script>
 </body>
