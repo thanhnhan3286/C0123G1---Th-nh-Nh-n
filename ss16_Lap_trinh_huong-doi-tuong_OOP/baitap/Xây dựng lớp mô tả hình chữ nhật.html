@@ -5,25 +5,81 @@
     <title>Xây dựng lớp mô tả hình chữ nhật</title>
 </head>
 <body>
+<canvas id="DemoCanvas" style="width: 800px;height: 500px;background-color: lightgray"></canvas>
+<br>
+<button onclick="changeSize()">Đổi kích thước</button>
+<br>
+<p id="chieuDai"></p>
+<p id="chieuRong"></p>
+<p id="dienTich"></p>
+<p id="chuVi"></p>
 <script>
-    class Rectangle{
-        constructor(width,height) {
+    class Rectangle {
+        constructor(width, height) {
             this.width = width;
             this.height = height;
         }
-        getWidth(){
+
+        getWidth() {
             return this.width;
         }
-        getHeight(){
+
+        getHeight() {
             return this.height;
         }
-        setWidth(width){
+
+        setWidth(width) {
             this.width = width;
         }
-        setHeight(height){
+
+        setHeight(height) {
             this.height = height;
         }
+
+        getArea() {
+            return this.width * this.height;
+        }
+
+        getPerimeter() {
+            return (this.width + this.height) * 2;
+        }
+
+        drawCanvas(color) {
+            let canvas = document.getElementById("DemoCanvas");
+            let ctx = canvas.getContext('2d');
+            ctx.clearRect(0,0,canvas.width,canvas.height);
+            ctx.fillStyle = color;
+            ctx.fillRect(10, 10, this.width, this.height);
+        }
     }
+    let width = +prompt("Nhập chiều dài: ");
+    let height = +prompt("Nhập chiều rộng: ");
+    let color = "red";
+    let myRectangle = new Rectangle(width, height);
+    myRectangle.drawCanvas(color);
+    document.getElementById("chieuDai").innerHTML= "Chiều dài: " + myRectangle.getWidth();
+    document.getElementById("chieuRong").innerHTML= "Chiều rộng: " + myRectangle.getHeight() ;
+    document.getElementById("dienTich").innerHTML= "Diện tích: " + myRectangle.getArea();
+    document.getElementById("chuVi").innerHTML= "Chu vi: " + myRectangle.getPerimeter();
+
+
+    function changeSize() {
+        let width = +prompt("Nhập chiều dài");
+        let height = +prompt("Nhập chiều rộng");
+        let color = prompt("Nhập màu");
+        let myRectangle = new Rectangle(width, height);
+        myRectangle.setWidth(width);
+        myRectangle.setHeight(height);
+        myRectangle.drawCanvas(color);
+        document.getElementById("chieuDai").innerHTML= "Chiều dài: " + myRectangle.getWidth();
+        document.getElementById("chieuRong").innerHTML= "Chiều rộng: " + myRectangle.getHeight() ;
+        document.getElementById("dienTich").innerHTML= "Diện tích: " + myRectangle.getArea();
+        document.getElementById("chuVi").innerHTML= "Chu vi: " + myRectangle.getPerimeter();
+
+    }
+
+
+
 </script>
 </body>
 </html>

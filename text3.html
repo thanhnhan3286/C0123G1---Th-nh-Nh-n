@@ -131,17 +131,83 @@
     //     if (i=2023)
     // }
     // document.write(num1);
-    let a = +prompt("Nhập tuổi cha");
-    let b = +prompt("Nhập tuổi con");
-    let i = 1;
-    // let c = 0;
-    while (i<1000) {
-        if ((b+i)/(a+i)===2) {
-            document.write("số năm: " + i);
-            break;
+    // let a = +prompt("Nhập tuổi cha");
+    // let b = +prompt("Nhập tuổi con");
+    // let i = 1;
+    // // let c = 0;
+    // while (i<1000) {
+    //     if ((b+i)/(a+i)===2) {
+    //         document.write("số năm: " + i);
+    //         break;
+    //     }
+    //     i++;
+    // }
+    <
+    canvas
+    id = "DemoCanvas"
+    width = "1000"
+    height = "600"
+    style = "background: greenyellow" > < /canvas>
+        < p
+    id = "info" > < /p>
+        < p
+    id = "info1" > < /p>
+        < button
+    onclick = "change()" > nhập
+    vào
+    đây < /button>
+    < script >
+    class Rectangle {
+        constructor(width, height) {
+            this.width = width;
+            this.height = height;
+        };
+
+        getWidth() {
+            return this.width;
+        };
+
+        getHeight() {
+            return this.height;
+        };
+
+        setWidth(width) {
+            this.width = width;
+        };
+
+        setHeight(height) {
+            this.height = height;
         }
-        i++;
+
+        getDienTich() {
+            return this.width * this.height;
+        };
+
+        getChuVi() {
+            return (this.height + this.width) * 2;
+        };
+
+        getCanvas() {
+            let canvas = document.getElementById("DemoCanvas");
+            let canvasRectangle = canvas.getContext("2d");
+            canvasRectangle.fillStyle = this.color;
+            canvasRectangle.fillRect(50, 50, this.height, this.width);
+        };
+    };
+
+    function change() {
+        let a = +prompt("Nhap chieu dai cua hinh chu nhat");
+        let b = +prompt("Nhap chieu rong cua hinh chu nhat");
+        let c = prompt("Nhap ma mau ban muon");
+        let myRectangle = new Rectangle(a, b, c);
+        document.getElementById('info').innerHTML = "chiều dài là :" + myRectangle.getHeight(), '<br/>' + "chiều rộng là: " + myRectangle.getWidth();
+        document.getElementById('info1').innerHTML = '<br/>' + "chu vi hình chữ nhật là :" + myRectangle.getChuVi(), '<br/>' + "diện tích hình chữ nhật là: " + myRectangle.getDienTich();
+        // document.write("chiều dài là :" + myRectangle.getHeight(), '<br/>' + "chiều rộng là: "+ myRectangle.getWidth());
+        myRectangle.getCanvas();
+        console.log(myRectangle.getDienTich());
+        // document.write('<br/>'+ "chu vi hình chữ nhập là :" +   myRectangle.getChuVi(), '<br/>' + "diện tích hình chữ nhật là: "+  myRectangle.getDienTich());
     }
+
 
 </script>
 </body>

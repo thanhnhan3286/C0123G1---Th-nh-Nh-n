@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô tả Temperature</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(temp) {
+            while (temp < -273.15) {
+                temp = prompt("Nhập lại nhiệt độ: ")
+            }
+            this.temp = temp;
+        }
+
+        gettemp() {
+            return this.temp;
+        }
+
+        getFahrenheit() {
+            return (9 / 5) * this.temp + 32;
+        }
+
+        getKelvin() {
+            return this.temp + 273.15;
+        }
+    }
+
+    let temp = +prompt("Nhập nhiệt độ: ");
+    let myTemperature = new Temperature(temp);
+    document.write("Độ C: " + myTemperature.gettemp() + " C");
+    document.write("<br>");
+    document.write("Độ F= " + myTemperature.getFahrenheit() + " F");
+    document.write("<br>");
+    document.write("Độ K= " + myTemperature.getKelvin() + " K");
+</script>
+</body>
+</html>
