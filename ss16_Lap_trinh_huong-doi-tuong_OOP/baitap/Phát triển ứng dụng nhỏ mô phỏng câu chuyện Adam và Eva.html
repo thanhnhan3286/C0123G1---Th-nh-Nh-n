@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</title>
+</head>
+<body>
+<h2>Adam & Eva</h2>
+<button onclick="eatApple()">An tao</button>
+<br>
+<p id="adam"></p>
+<p id="eva"></p>
+<p id="apple"></p>
+<script>
+    class Apple {
+        constructor(weight) {
+            this.weightApple = weight;
+        }
+
+        getWeightApple() {
+            return this.weightApple;
+        }
+
+        setWeightApple() {
+            this.weightApple = weight;
+        }
+
+        decrease() {
+
+            if (this.weightApple <= 0) {
+                this.weightApple = 0;
+            } else {
+                this.weightApple--;
+            }
+            return this.weightApple;
+
+        }
+
+        isEmpty() {
+            if (this.weightApple <= 0) {
+                return true;
+            }
+        }
+    }
+
+    class Human {
+        constructor(name, gender, weightHuman, say) {
+            this.name = name;
+            this.gender = gender;
+            this.weightHuman = weightHuman;
+            this.say = say;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        setName() {
+            this.name = name;
+        }
+
+        getGender() {
+            return this.gender;
+        }
+
+        setGender() {
+            this.gender = gender;
+        }
+
+        getWeightHuman() {
+            return this.weightHuman;
+        }
+
+        setWeightHuman() {
+            this.weightHuman = weightHuman;
+        }
+
+        getSay() {
+            return this.say;
+        }
+
+        setSay() {
+            this.say = say;
+        }
+
+        getEatApple(apple) {
+            if (apple.isEmpty()) {
+                document.getElementById("apple").innerHTML = "Het tao.";
+            } else {
+                apple.decrease();
+                return this.weightHuman++;
+            }
+        }
+    }
+
+    let adam = new Human("Adam", "Male", 55, "Hello Eva");
+    let eva = new Human("Eva", "Female", 42, "Hello Adam");
+    let apple = new Apple(10);
+
+    function eatApple() {
+        adam.getEatApple(apple);
+        eva.getEatApple(apple);
+        document.getElementById("adam").innerHTML = "Adam said: " + adam.getSay() + "<br> Adam an tao,  can nang Adam " + adam.getWeightHuman();
+        document.getElementById("eva").innerHTML = "Eva said: " + eva.getSay() + "<br> Eva an tao, can nang Eva " + eva.getWeightHuman();
+        document.getElementById("apple").innerHTML = "So tao con lai: " + apple.decrease();
+    }
+</script>
+</body>
+</html>

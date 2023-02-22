@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ss16_Lap_trinh_huong-doi-tuong_OOP/baitap/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_Lap_trinh_huong-doi-tuong_OOP/baitap/Công tắc và bóng đèn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss16_Lap_trinh_huong-doi-tuong_OOP/baitap/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/texxt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16_Lap_trinh_huong-doi-tuong_OOP/baitap/Xây dựng lớp mô tả hình chữ nhật.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16_Lap_trinh_huong-doi-tuong_OOP/baitap/Xây dựng lớp mô tả hình chữ nhật.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text3.html" beforeDir="false" afterPath="$PROJECT_DIR$/text3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,8 @@
       <workItem from="1676644740560" duration="734000" />
       <workItem from="1676690226045" duration="20430000" />
       <workItem from="1676855732991" duration="14278000" />
-      <workItem from="1676951013196" duration="13737000" />
+      <workItem from="1676951013196" duration="14327000" />
+      <workItem from="1677035373817" duration="16616000" />
     </task>
     <servers />
   </component>
