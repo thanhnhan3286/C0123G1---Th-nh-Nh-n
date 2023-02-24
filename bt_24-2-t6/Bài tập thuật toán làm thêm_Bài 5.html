@@ -10,13 +10,13 @@
     let arr = [];
     for (let i = 0; i < n; i++) {
         arr[i] = prompt("Nhập phần tử thứ " + (i + 1));
-        if(i>0){
-            for (let j = i+1; j <= i; j++) {
-                if (arr[j] === arr[i]) {
-                    arr[i] = prompt("Trùng phần tử, nhập lại phần tử thứ " + (i + 1));
-                }
+        for (let j = i + 1; j <= i; j++) {
+            if (arr[j] === arr[i]) {
+                arr[i] = prompt("Trùng phần tử, nhập lại phần tử thứ " + (i + 1));
+                break;
             }
         }
+    }
     }
 
 </script>
