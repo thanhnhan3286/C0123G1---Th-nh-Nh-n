@@ -5,63 +5,91 @@
     <title>Bài Tập</title>
 </head>
 <body>
-<button onclick="on()">Bật Đèn</button>
-<button onclick="off()"> Tắt Đèn</button>
-<p id="result"></p>
+<!--<button onclick="on()">Bật Đèn</button>-->
+<!--<button onclick="off()"> Tắt Đèn</button>-->
+<!--<p id="result"></p>-->
 <script>
-    class ElectricLamp {
-        constructor(status) {
-            this.status = status;
-        }
+    // class ElectricLamp {
+    //     constructor(status) {
+    //         this.status = status;
+    //     }
+    //
+    //     getStatus() {
+    //         return this.status;
+    //     }
+    // }
+    // class SwitchButton {
+    //     constructor( lamp,status) {
+    //         this.status = status;
+    //         this.lamp = lamp;
+    //     }
+    //
+    //     getStatus() {
+    //         return this.status;
+    //     }
+    //     setStatus(status){
+    //         this.status=status;
+    //     }
+    //     getLammp(){
+    //         return this.lamp;
+    //     }
+    //     setLamp(lamp){
+    //         this.lamp=lamp;
+    //     }
+    //
+    //     connectToLamp(Electriclamp) {
+    //         return this.lamp = Electriclamp;
+    //     }
+    //
+    //     switchOff() {
+    //         this.lamp.status ="Đèn Tắt";
+    //         return this.status = false;
+    //     }
+    //
+    //     switchOn() {
+    //         this.lamp.status ="Đèn Bật";
+    //         return this.status = true;
+    //     }
+    // }
+    //
+    // let electricLamp1 = new ElectricLamp(false);
+    // let switchButton1 = new SwitchButton(electricLamp1,false);
+    // function on() {
+    //     switchButton1.switchOn();
+    //     document.getElementById("result").innerHTML =electricLamp1.getStatus();
+    // }
+    //
+    // function off() {
+    //     switchButton1.switchOff();
+    //     document.getElementById("result").innerHTML =electricLamp1.getStatus();
+    // // }
+    let arr = [1, 2, 3, 4];
+    document.write(maxMinAvg(arr));
 
-        getStatus() {
-            return this.status;
+    function maxMinAvg(arr) {
+        let arrnew = [];
+        let max = arr[0];
+        let min = arr[arr.length - 1];
+        let sum = 0;
+        let avg = 0;
+        for (let i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
         }
-    }
-    class SwitchButton {
-        constructor( lamp,status) {
-            this.status = status;
-            this.lamp = lamp;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
         }
-
-        getStatus() {
-            return this.status;
+        for (let i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
         }
-        setStatus(status){
-            this.status=status;
-        }
-        getLammp(){
-            return this.lamp;
-        }
-        setLamp(lamp){
-            this.lamp=lamp;
-        }
-
-        connectToLamp(Electriclamp) {
-            return this.lamp = Electriclamp;
-        }
-
-        switchOff() {
-            this.lamp.status ="Đèn Tắt";
-            return this.status = false;
-        }
-
-        switchOn() {
-            this.lamp.status ="Đèn Bật";
-            return this.status = true;
-        }
-    }
-
-    let electricLamp1 = new ElectricLamp(false);
-    let switchButton1 = new SwitchButton(electricLamp1,false);
-    function on() {
-        switchButton1.switchOn();
-        document.getElementById("result").innerHTML =electricLamp1.getStatus();
-    }
-
-    function off() {
-        switchButton1.switchOff();
-        document.getElementById("result").innerHTML =electricLamp1.getStatus();
+        avg = sum / arr.length;
+        arrnew[0] = max;
+        arrnew[1] = min;
+        arrnew[2] = avg;
+        return arrnew;
     }
 </script>
 </body>
