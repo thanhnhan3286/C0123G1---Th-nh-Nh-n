@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 5.html" afterDir="false" />
-    </list>
+    <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1676855732991" duration="14278000" />
       <workItem from="1676951013196" duration="14327000" />
       <workItem from="1677035373817" duration="21633000" />
-      <workItem from="1677201460584" duration="15054000" />
+      <workItem from="1677201460584" duration="15055000" />
     </task>
     <servers />
   </component>
