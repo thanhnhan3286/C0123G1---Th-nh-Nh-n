@@ -6,13 +6,31 @@
 </head>
 <body>
 <h2>Tính lương nhân viên</h2>
-<label for="grossSalary">Nhập lương tháng</label><br>
+<label for="grossSalary">Nhập lương tháng (triệu đồng)</label>
 <input id="grossSalary" name="salary" type="number"><br>
-<button onclick=""></button>
-<p id="incomETax"></p><br><br>
-<h3 id="netSalary"></h3>
+<button onclick="incomeTax()">Tính</button>
+<p id="incomeTax"></p>
+<p id="netSalary"></p>
 <script>
-
+    function incomeTax() {
+        let grossSalary = +document.getElementById("grossSalary").value;
+        let netSalary;
+        if (grossSalary >= 7) {
+            if (grossSalary >= 15) {
+                netSalary = grossSalary - (grossSalary * 0.2);
+                document.getElementById("incomeTax").innerHTML = "Chỉ số thuế thu nhập: 20%";
+                document.getElementById("netSalary").innerHTML = "Lương thực nhận: " + netSalary;
+            } else {
+                netSalary = grossSalary - (grossSalary * 0.1);
+                document.getElementById("incomeTax").innerHTML = "Chỉ số thuế thu nhập: 10%";
+                document.getElementById("netSalary").innerHTML = "Lương thực nhận: " + netSalary;
+            }
+        } else {
+            netSalary = grossSalary - (grossSalary * 0.05);
+            document.getElementById("incomeTax").innerHTML = "Chỉ số thuế thu nhập: 5%";
+            document.getElementById("netSalary").innerHTML = "Lương thực nhận: " + netSalary;
+        }
+    }
 </script>
 </body>
 </html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    let n = +prompt("Nhập độ dài mảng A");
+    let arrayA = [];
+    for (let i = 0; i < n; i++) {
+        arrayA[i] = +prompt("Nhập phần tử số thứ " + (i + 1));
+    }
+    document.write("Mảng A: " + arrayA + "<br>");
+    let arrayB = [];
+    arrayB[0] = arrayA[0];
+    for (let j = 1; j < n; j++) {
+        arrayB[j] = arrayB[j - 1] + arrayA[j];
+    }
+    document.write("Mảng B: " + arrayB);
+</script>
+</body>
+</html>
