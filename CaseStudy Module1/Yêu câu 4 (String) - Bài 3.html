@@ -6,24 +6,25 @@
 </head>
 <body>
 <script>
-    let s1 = "aabbbcc";
-    let s2 = "adcbbaa";
-    let s3 = s1.split("");
-    let s4 = s2.split("");
+    let arr1 = prompt("Nhập mảng ký tự thứ nhất:");
+    let arr2 = prompt("Nhập mảng ký tự thứ hai:");
+    document.write("Mảng thứ nhất: " + arr1 + "<br>" + "Mảng thứ hai: " + arr2 + "<br>");
+    let arr3 = arr1.split("");
+    let arr4 = arr2.split("");
     let array = [];
-    for (let i = 0; i < s3.length; i++) {
-        for (let j = 0; j < s4.length; j++) {
-            if (s3[i] === s4[j]) {
-                array.push(s3[i]);
-                s3.splice(i, 1);
-                s4.splice(j, 1);
-            }
-            if(j===s4.length){
-                i--;
+    let count = 0;
+    for (let i = 0; i < arr3.length; i++) {
+        for (let j = 0; j < arr4.length; j++) {
+            if (arr3[i] === arr4[j]) {
+                array.push(arr3[i]);
+                arr3.splice(i, 1);
+                arr4.splice(j, 1);
+                count++;
+                i = 0;
             }
         }
     }
-    document.write(array);
+    document.write("Có " + count + " ký tự chung, các ký tự đó là: " + array);
 </script>
 </body>
 </html>
