@@ -22,9 +22,7 @@
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/texxt.html" beforeDir="false" afterPath="$PROJECT_DIR$/texxt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +58,9 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Bài tập thuật toán làm thêm_Bài 5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 5.html" useBuiltInWebServerPort="true">
+    <configuration name="Bài tập thuật toán làm thêm_Bài 5.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/module1/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 5.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.Bài tập thuật toán làm thêm_Bài 5.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,7 +92,7 @@
       <workItem from="1677459663465" duration="22012000" />
       <workItem from="1677499640749" duration="8453000" />
       <workItem from="1677546898127" duration="20318000" />
-      <workItem from="1677590061216" duration="2074000" />
+      <workItem from="1677590061216" duration="7086000" />
     </task>
     <servers />
   </component>
@@ -119,6 +112,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677592829300">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1677592829300" />
     <state width="745" height="582" key="GridCell.Tab.0.bottom" timestamp="1677579991090">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

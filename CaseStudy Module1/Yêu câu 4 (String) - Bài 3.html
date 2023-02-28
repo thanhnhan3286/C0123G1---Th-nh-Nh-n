@@ -6,23 +6,24 @@
 </head>
 <body>
 <script>
-    let character = prompt("Nhập chuỗi ký tự: ");
-    let character1 = prompt("Nhập chuỗi ký tự thứ 2: ");
-    character.split("");
-    character1.split("");
-    let arr = [];
-    let count = 0;
-    for (let i = 0; i < character.length; i++) {
-        for (let j = 0; j < character1.length; j++) {
-            if (character[i] === character1[j]) {
-                arr.push(character[i]);
-                character.splice(i, 1);
-                character1.splice(j, 1);
-                count++;
+    let s1 = "aabbbcc";
+    let s2 = "adcbbaa";
+    let s3 = s1.split("");
+    let s4 = s2.split("");
+    let array = [];
+    for (let i = 0; i < s3.length; i++) {
+        for (let j = 0; j < s4.length; j++) {
+            if (s3[i] === s4[j]) {
+                array.push(s3[i]);
+                s3.splice(i, 1);
+                s4.splice(j, 1);
+            }
+            if(j===s4.length){
+                i--;
             }
         }
     }
-    alert("Số ký tự chung là: " + count + '\n' + "Các ký tự là: " + arr);
+    document.write(array);
 </script>
 </body>
 </html>
