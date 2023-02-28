@@ -6,23 +6,15 @@
 </head>
 <body>
 <script>
-    let arr = "cabca";
-    let count = 0;
-    let arr1 = arr.split('');
-    let arr2 = [];
-    arr2.push(arr1[0]);
-    arr1.splice(0, 1);
-    alert(arr2);
-    for (let i = 0; i < arr1.length; i++) {
-        for (let j = 0; j < arr2.length; j++) {
-            if (arr1[i] !== arr2[j]) {
-                arr2.push(arr1[i]);
-                arr1.splice(i, 1);
-                alert(arr2);
-            }
+    let arr = prompt("Nhập chuỗi ký tự: ");
+    let arr1 = [];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr1.indexOf(arr[i]) === -1) {
+            arr1.push(arr[i]);
         }
     }
-    document.write(arr2);
+    document.write("Chuỗi ký tự đã nhập: " + arr + "<br>");
+    document.write("Có " + arr1.length + " ký tự khác nhau, đó là: " + arr1);
 </script>
 </body>
 </html>

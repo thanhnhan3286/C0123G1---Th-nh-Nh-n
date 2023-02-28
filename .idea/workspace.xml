@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 5 (Mảng 2 chiều) - Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 5 (Mảng 2 chiều) - Bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/texxt.html" beforeDir="false" afterPath="$PROJECT_DIR$/texxt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +99,7 @@
       <workItem from="1677459663465" duration="22012000" />
       <workItem from="1677499640749" duration="8453000" />
       <workItem from="1677546898127" duration="20318000" />
+      <workItem from="1677590061216" duration="2074000" />
     </task>
     <servers />
   </component>

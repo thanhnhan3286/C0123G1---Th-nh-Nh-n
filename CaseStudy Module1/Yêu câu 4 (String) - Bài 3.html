@@ -5,6 +5,24 @@
     <title>Bài 3</title>
 </head>
 <body>
-
+<script>
+    let character = prompt("Nhập chuỗi ký tự: ");
+    let character1 = prompt("Nhập chuỗi ký tự thứ 2: ");
+    character.split("");
+    character1.split("");
+    let arr = [];
+    let count = 0;
+    for (let i = 0; i < character.length; i++) {
+        for (let j = 0; j < character1.length; j++) {
+            if (character[i] === character1[j]) {
+                arr.push(character[i]);
+                character.splice(i, 1);
+                character1.splice(j, 1);
+                count++;
+            }
+        }
+    }
+    alert("Số ký tự chung là: " + count + '\n' + "Các ký tự là: " + arr);
+</script>
 </body>
 </html>

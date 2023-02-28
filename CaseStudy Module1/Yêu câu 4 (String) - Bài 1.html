@@ -6,14 +6,18 @@
 </head>
 <body>
 <script>
+    let name = prompt(" Nhập tên của bạn: ");
+    document.write("Tên của bạn nhập: " + name + "<br>"
+        + "Tên của bạn đã sửa: " + change(name) + "<br>" +
+        "Chữ có độ dài dài nhất:" + maxLength(change(name)));
+
     function change(name) {
         name = name.trim().toLowerCase();
-        console.log(name);
         let nameArray = Array.from(name);
         for (let i = 0; i < nameArray.length; i++) {
             if (nameArray[i] === " " && nameArray[i + 1] === " ") {
-                for (let j = i + 1; j < nameArray.length; j++) {
-                    nameArray[j] = nameArray[j + 1];
+                nameArray.splice(i,1);
+                i--;
                 }
             }
         }
@@ -38,10 +42,7 @@
 
     }
 
-    let name = prompt(" Nhập tên của bạn: ");
-    document.write("Tên của bạn nhập: " + name + "<br>"
-        + "Tên của bạn đã sửa: " + change(name) + "<br>" +
-        "Chữ có độ dài dài nhất:" + maxLength(change(name)));
+
 </script>
 </body>
 </html>
