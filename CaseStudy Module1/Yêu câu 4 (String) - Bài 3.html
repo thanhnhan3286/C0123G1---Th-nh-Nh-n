@@ -6,9 +6,9 @@
 </head>
 <body>
 <script>
-    let arr1 = prompt("Nhập mảng ký tự thứ nhất:");
-    let arr2 = prompt("Nhập mảng ký tự thứ hai:");
-    document.write("Mảng thứ nhất: " + arr1 + "<br>" + "Mảng thứ hai: " + arr2 + "<br>");
+    let arr1 = prompt("Nhap mang ky tu thu nhat: ");
+    let arr2 = prompt("Nhap mang ky tu thu hai: ");
+    document.write("Mang thu nhat: "+arr1+"<br>"+"Mang thu hai: "+arr2+"<br>")
     let arr3 = arr1.split("");
     let arr4 = arr2.split("");
     let array = [];
@@ -20,11 +20,12 @@
                 arr3.splice(i, 1);
                 arr4.splice(j, 1);
                 count++;
-                i = 0;
+                i--;
+                break;
             }
         }
     }
-    document.write("Có " + count + " ký tự chung, các ký tự đó là: " + array);
+    document.write("Có "+count+" ký tự chung, các ký tự đó là: "+array);
 </script>
 </body>
 </html>
