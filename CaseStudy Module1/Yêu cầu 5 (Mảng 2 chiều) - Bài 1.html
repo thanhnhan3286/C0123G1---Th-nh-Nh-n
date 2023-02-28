@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    let m = +prompt("Nhâp m:");
+    let n = +prompt("Nhập n:");
+    let arr = [];
+    for (let i = 0; i < m; i++) {
+        arr[i] = [];
+        for (let j = 0; j < n; j++) {
+            arr[i][j] = +prompt("Nhập phần tử thứ " + (i + 1) + "-" + (j + 1));
+        }
+    }
+    document.write("Ma trận đã nhập: "+"<br>");
+    for(let z=0;z<m;z++){
+        document.write(arr[z] + "<br>");
+    }
+    let sum = 0;
+    for(let x = 0;x<m;x++){
+        for(let y = 0;y<n;y++){
+            if(arr[x][y]%2===0){
+                sum = sum+arr[x][y];
+            }
+        }
+    }
+    document.write("Tổng các số chẵn trong ma trận trên là "+sum);
+</script>
+</body>
+</html>

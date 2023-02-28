@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    function change(name) {
+        name = name.trim().toLowerCase();
+        console.log(name);
+        let nameArray = Array.from(name);
+        for (let i = 0; i < nameArray.length; i++) {
+            if (nameArray[i] === " " && nameArray[i + 1] === " ") {
+                for (let j = i + 1; j < nameArray.length; j++) {
+                    nameArray[j] = nameArray[j + 1];
+                }
+            }
+        }
+        for (let i = 0; i < nameArray.length; i++) {
+            nameArray[0] = nameArray[0].toUpperCase();
+            if (nameArray[i] === " ") {
+                nameArray[i + 1] = nameArray[i + 1].toUpperCase();
+            }
+        }
+        return nameArray.join("");
+    }
+
+    function maxLength(name) {
+        let nameArray = name.split(" ");
+        let max = nameArray[0];
+        for (let i = 0; i < nameArray.length; i++) {
+            if (nameArray[i].length > max.length) {
+                max = nameArray[i];
+            }
+        }
+        return max;
+
+    }
+
+    let name = prompt(" Nhập tên của bạn: ");
+    document.write("Tên của bạn nhập: " + name + "<br>"
+        + "Tên của bạn đã sửa: " + change(name) + "<br>" +
+        "Chữ có độ dài dài nhất:" + maxLength(change(name)));
+</script>
+</body>
+</html>

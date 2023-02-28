@@ -20,16 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12fa78f1-f61b-436d-bf79-7d4cb8946f1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 1 ( If và switch case)-Bài2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 2 ( Loop ) - Bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 2 (Loop) - Bài 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 2 (Loop)-Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 3 (Mảng và Loop) -Bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 3 (Mảng và Loop) -Bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu câu 4 (String) - Bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 3 (Mảng và Loop) - Bài 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 3 (Mảng và Loop) - Bài 4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 5 (Mảng 2 chiều) - Bài 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 5 (Mảng 2 chiều) - Bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 5 (Mảng 2 chiều) - Bài 3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CG-DN CaseStudy Module 1 v3.0.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 1 ( If và switch case)-Bài 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 1 ( If và switch case)-Bài 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Luyện tập vòng lặp 02-Bài 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 1 ( If và switch case)-Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 1 ( If và switch case)-Bài2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 2 ( Loop ) - Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 2 (Loop)-Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 3 (Mảng và Loop) -Bài 1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy Module1/Yêu cầu 3 (Mảng và Loop) -Bài 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Hiển thị các số nguyên tố.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss10+11_vong_lap/baitap/Hiển thị các số nguyên tố.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do - Copy/Mô tả thuật toán chuyển đổi tiền tệ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do - Copy/Mô tả thuật toán có cấu trúc điều kiện.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do - Copy/Mô tả thuật toán tìm giá trị lớn nhất trong 1 dãy số.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do - Copy/Mô tả thuật toán tìm giá trị lớn nhất trong 3 số.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3_ma_gia_luu_do - Copy/Mô tả thuật toán tính điểm trung bình.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/texxt.html" beforeDir="false" afterPath="$PROJECT_DIR$/texxt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +76,16 @@
       <recent name="D:\Codegym\module1\ss4_GIT_HTML\bai_tap" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Bài tập thuật toán làm thêm_Bài 5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/bt_24-2-t6/Bài tập thuật toán làm thêm_Bài 5.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.Bài tập thuật toán làm thêm_Bài 5.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,7 +113,9 @@
       <workItem from="1676951013196" duration="14327000" />
       <workItem from="1677035373817" duration="21633000" />
       <workItem from="1677201460584" duration="15055000" />
-      <workItem from="1677459663465" duration="10247000" />
+      <workItem from="1677459663465" duration="22012000" />
+      <workItem from="1677499640749" duration="8453000" />
+      <workItem from="1677546898127" duration="18769000" />
     </task>
     <servers />
   </component>
@@ -111,6 +135,70 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="745" height="582" key="GridCell.Tab.0.bottom" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.0.center" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.0.left" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.0.right" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.1.bottom" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.1.center" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.1.left" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.1.right" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.2.bottom" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.2.center" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.2.left" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.2.right" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.3.bottom" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.3.center" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.3.left" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
+    <state width="745" height="582" key="GridCell.Tab.3.right" timestamp="1677551571489">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="745" height="582" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1677551571489" />
     <state x="698" y="188" key="run.anything.popup" timestamp="1676690675225">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

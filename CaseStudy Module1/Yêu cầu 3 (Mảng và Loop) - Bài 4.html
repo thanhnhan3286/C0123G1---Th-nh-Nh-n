@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    let choose;
+    let quantity;
+    let sum = 0;
+    do {
+        choose = +prompt('Menu:\n1.Cafe\n2.Cam vắt\n3.Nước ép cà rốt\n4.Nước ép cà chua\n5.Nước lọc\n6.Nước dừa\n' +
+            '7.Thoát gọi món\nNhập số của món:');
+        switch (choose) {
+            case 1:
+                alert("Đơn giá: 14.000đ");
+                quantity = +prompt("Nhập số lượng:");
+                sum = sum + quantity * 14000;
+                alert("Thành tiền: " + sum);
+                break;
+            case 2:
+                alert("Đơn giá: 24.000đ");
+                quantity = +prompt("Nhập số lượng:");
+                sum = sum + quantity * 24000;
+                alert("Thành tiền: " + sum);
+                break;
+            case 3:
+                alert("Đơn giá: 15.000đ");
+                quantity = +prompt("Nhập số lượng:");
+                sum = sum + quantity * 15000;
+                alert("Thành tiền: " + sum);
+                break;
+            case 4:
+                alert("Đơn giá: 15.000đ");
+                quantity = +prompt("Nhập số lượng:");
+                sum = sum + quantity * 15000;
+                alert("Thành tiền: " + sum);
+                break;
+            case 5:
+                alert("Đơn giá: 10.000đ");
+                quantity = +prompt("Nhập số lượng:");
+                sum = sum + quantity * 10000;
+                alert("Thành tiền: " + sum);
+                break;
+            case 6:
+                alert("Đơn giá: 12.000đ");
+                quantity = +prompt("Nhập số lượng:");
+                sum = sum + quantity * 12000;
+                alert("Thành tiền: " + sum);
+                break;
+        }
+    } while (choose !== 7)
+    alert("Tổng đơn cần thanh toán là: " + sum);
+</script>
+</body>
+</html>
