@@ -21,7 +21,6 @@
                 <td><label for="class">Lớp: </label></td>
                 <td><input id="class" type="text" placeholder="C0123G1"></td>
             </tr>
-
             <tr>
                 <td><label for="email">Email: </label></td>
                 <td><input id="email" type="email" placeholder="@gmail.com"></td>
@@ -39,7 +38,7 @@
             </tr>
             <tr>
                 <td><label for="module">Module: </label></td>
-                <td><input type="number" max="6" min="1" id="module" placeholder="Module bạn đang học"></td>
+                <td><input type="number" max="6" min="1" id="module" placeholder="1-6"></td>
             </tr>
         </table>
         <button type="button" id="create" onclick="createStudent()">Thêm mới</button>
@@ -47,14 +46,14 @@
     </form>
 </div>
 <hr>
-<h2 style="color: #FA8176">Danh sách các học sinh</h2>
+<h2 style="color: #FA8176">Danh sách các học viên</h2>
 <div id="tableStudentList"></div>
 <script>
     class Student {
-        constructor(studentCode, studentName, classes, email, gender, birthday, module) {
-            this.studentCode = studentCode;
-            this.studentName = studentName;
-            this.classes = classes;
+        constructor(code, name, classes, email, gender, birthday, module) {
+            this.code = code;
+            this.name = name;
+            this.class = classes;
             this.email = email;
             this.gender = gender;
             this.birthday = birthday;
@@ -89,9 +88,9 @@
         for (let i = 0; i < studentList.length; i++) {
             table += "<tr>" +
                 "<td style='text-align: center' >" + (i + 1) + "</td>" +
-                "<td>" + "HV- " + studentList[i].studentCode + "</td>" +
-                "<td>" + studentList[i].studentName + "</td>" +
-                "<td>" + studentList[i].classes + "</td>" +
+                "<td>" + "HV- " + studentList[i].code + "</td>" +
+                "<td>" + studentList[i].name + "</td>" +
+                "<td>" + studentList[i].class + "</td>" +
                 "<td>" + studentList[i].email + "</td>" +
                 "<td style='text-align: center' >" + studentList[i].gender + "</td>" +
                 "<td>" + studentList[i].birthday + "</td>" +
@@ -102,6 +101,7 @@
         }
         table += "</table>";
         document.getElementById("tableStudentList").innerHTML = table;
+        console.log(studentList);
     }
 
     // Chức năng xoá
@@ -151,8 +151,7 @@
         let gender = document.getElementById("gender").value;
         let birthday = document.getElementById("birthday").value;
         let module = document.getElementById("module").value;
-        alert(name)
-        alert(currentStudentUpdateId)
+        alert("Đã thay đổi thông tin của học viên " + name)
         studentList[currentStudentUpdateId].code = code;
         studentList[currentStudentUpdateId].name = name;
         studentList[currentStudentUpdateId].class = classes;
@@ -163,6 +162,7 @@
         displayStudentList(studentList)
         document.getElementById("update").style.display = "none";
         document.getElementById("create").style.display = "block";
+        document.getElementById("delete").style.display = "block";
         document.getElementById("code").value = "";
         document.getElementById("name").value = "";
         document.getElementById("class").value = "";
@@ -179,18 +179,19 @@
         currentStudentUpdateId = indexStudent;
         document.getElementById("update").style.display = "block";
         document.getElementById("create").style.display = "none";
-        alert("Tên học học viên cần sửa là: " + studentList[indexStudent].name);
+        document.getElementById("delete").style.display = "none";
+        alert("Chỉnh sửa thông tin của học viên " + studentList[indexStudent].name);
         let updateStudent = studentList[indexStudent];
         document.getElementById("code").value = updateStudent.code;
         document.getElementById("name").value = updateStudent.name;
-        document.getElementById("class").value = updateStudent.classes;
+        document.getElementById("class").value = updateStudent.class;
         document.getElementById("email").value = updateStudent.email;
         document.getElementById("gender").value = updateStudent.gender;
         document.getElementById("birthday").value = updateStudent.birthday;
         document.getElementById("module").value = updateStudent.module;
         studentList[indexStudent].code = document.getElementById("code").value;
         studentList[indexStudent].name = document.getElementById("name").value;
-        studentList[indexStudent].classes = document.getElementById("class").value;
+        studentList[indexStudent].class = document.getElementById("class").value;
         studentList[indexStudent].email = document.getElementById("email").value;
         studentList[indexStudent].gender = document.getElementById("gender").value;
         studentList[indexStudent].birthday = document.getElementById("birthday").value;
