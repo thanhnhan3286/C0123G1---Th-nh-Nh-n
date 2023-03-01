@@ -63,9 +63,9 @@
     }
 
     // Khởi tạo những đối tượng mặc định.
-    let student1 = new Student("0001", "Nguyen Viet Cao", "C0123G1", "nguyenvietcao@gmail.com", "Nam", "12/05/1988", 1);
-    let student2 = new Student("0002", "Nguyen Lai Tam Vu", "C0123G1", "nguyenlaitamvu@gmail.com", "Nam", "23/02/1998", 1);
-    let student3 = new Student("0003", "Nguyen Hoang Chau", "C0123G1", "nguyenhoangchau@gmail.com", "Nu", "09/04/2008", 1);
+    let student1 = new Student("0001", "Nguyễn Viết Cao", "C0123G1", "nguyenvietcao@gmail.com", "Nam", "12/05/1988", 1);
+    let student2 = new Student("0002", "Nguyễn Lại Tam Vũ", "C0123G1", "nguyenlaitamvu@gmail.com", "Nam", "23/02/1998", 1);
+    let student3 = new Student("0003", "Nguyễn Hoàng Châu", "C0123G1", "nguyenhoangchau@gmail.com", "Nu", "09/04/2008", 1);
     let studentList = [];
     studentList.push(student1);
     studentList.push(student2);
@@ -127,7 +127,7 @@
         let birthday = document.getElementById("birthday").value;
         let module = document.getElementById("module").value;
         let newStudent = new Student(code, name, classes, email, gender, birthday, module);
-        if (newStudent.name === "" && newStudent.code ==="") {
+        if (newStudent.name === "" && newStudent.code === "") {
             return false;
         }
         studentList.push(newStudent);
@@ -142,18 +142,32 @@
         document.getElementById("module").value = "";
     }
 
-    // constructor(studentCode, studentName, classes, email, gender, birthday, module) {
+    //Lưu thông tin đã sửa
     function saveUpdate() {
+        let code = document.getElementById("code").value;
         let name = document.getElementById("name").value;
+        let classes = document.getElementById("class").value;
+        let email = document.getElementById("email").value;
+        let gender = document.getElementById("gender").value;
+        let birthday = document.getElementById("birthday").value;
+        let module = document.getElementById("module").value;
         alert(name)
         alert(currentStudentUpdateId)
+        studentList[currentStudentUpdateId].code = code;
         studentList[currentStudentUpdateId].name = name;
+        studentList[currentStudentUpdateId].class = classes;
+        studentList[currentStudentUpdateId].email = email;
+        studentList[currentStudentUpdateId].gender = gender;
+        studentList[currentStudentUpdateId].birthday = birthday;
+        studentList[currentStudentUpdateId].module = module;
         displayStudentList(studentList)
         document.getElementById("update").style.display = "none";
         document.getElementById("create").style.display = "block";
+        document.getElementById("code").value = "";
         document.getElementById("name").value = "";
         document.getElementById("class").value = "";
         document.getElementById("email").value = "";
+        document.getElementById("gender").value = "";
         document.getElementById("birthday").value = "";
         document.getElementById("module").value = "";
     }
@@ -165,20 +179,25 @@
         currentStudentUpdateId = indexStudent;
         document.getElementById("update").style.display = "block";
         document.getElementById("create").style.display = "none";
-        alert("Tên học học viên cần sửa là: " + studentList[indexStudent].name)
+        alert("Tên học học viên cần sửa là: " + studentList[indexStudent].name);
         let updateStudent = studentList[indexStudent];
+        document.getElementById("code").value = updateStudent.code;
         document.getElementById("name").value = updateStudent.name;
-        document.getElementById("class").value;
-        document.getElementById("email").value;
-        document.getElementById("dateOfBirth").value;
-        document.getElementById("module").value;
+        document.getElementById("class").value = updateStudent.classes;
+        document.getElementById("email").value = updateStudent.email;
+        document.getElementById("gender").value = updateStudent.gender;
+        document.getElementById("birthday").value = updateStudent.birthday;
+        document.getElementById("module").value = updateStudent.module;
+        studentList[indexStudent].code = document.getElementById("code").value;
         studentList[indexStudent].name = document.getElementById("name").value;
         studentList[indexStudent].classes = document.getElementById("class").value;
         studentList[indexStudent].email = document.getElementById("email").value;
-        studentList[indexStudent].dateOfBirth = document.getElementById("dateOfBirth").value;
+        studentList[indexStudent].gender = document.getElementById("gender").value;
+        studentList[indexStudent].birthday = document.getElementById("birthday").value;
         studentList[indexStudent].module = document.getElementById("module").value;
         displayStudentList(studentList);
     }
+
     window.onload = function () {
         document.getElementById("update").style.display = "none";
 
