@@ -106,14 +106,18 @@
 
     // Chức năng xoá
     function deleteStudent(indexStudent) {
-        const confirmDelete = confirm("Bạn muốn xoá học sinh " +
-            studentList[indexStudent].studentName + " không?");
-        if (confirmDelete) {
-            studentList.splice(indexStudent, 1);
-            alert("Bạn đã xoá thành công.");
-            displayStudentList(studentList);
+        if (document.getElementById("update").style.display === "block") {
+            return alert("Đang chỉnh sửa thông tin, không thể xóa thông tin học viên.");
         } else {
-            alert("Bạn đã không xoá.");
+            const confirmDelete = confirm("Bạn muốn xoá học viên " +
+                studentList[indexStudent].name + " khỏi danh sách?");
+            if (confirmDelete) {
+                studentList.splice(indexStudent, 1);
+                alert("Bạn đã xoá học viên " + name);
+                displayStudentList(studentList);
+            } else {
+                alert("Bạn đã không xoá.");
+            }
         }
     }
 
@@ -132,7 +136,6 @@
         }
         studentList.push(newStudent);
         displayStudentList(studentList);
-        console.log(studentList)
         document.getElementById("code").value = "";
         document.getElementById("name").value = "";
         document.getElementById("class").value = "";
@@ -162,7 +165,6 @@
         displayStudentList(studentList)
         document.getElementById("update").style.display = "none";
         document.getElementById("create").style.display = "block";
-        document.getElementById("delete").style.display = "block";
         document.getElementById("code").value = "";
         document.getElementById("name").value = "";
         document.getElementById("class").value = "";
@@ -179,7 +181,6 @@
         currentStudentUpdateId = indexStudent;
         document.getElementById("update").style.display = "block";
         document.getElementById("create").style.display = "none";
-        document.getElementById("delete").style.display = "none";
         alert("Chỉnh sửa thông tin của học viên " + studentList[indexStudent].name);
         let updateStudent = studentList[indexStudent];
         document.getElementById("code").value = updateStudent.code;
